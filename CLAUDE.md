@@ -160,19 +160,33 @@ MORNING BRIEFING (run as Ruflo swarm):
 
 ---
 
-## 🛠️ TOOL STATUS DASHBOARD — Live Stack
+## 🛠️ TOOL STATUS DASHBOARD — Always On Stack
 
-| Tool | Where | Status |
-|---|---|---|
-| 🪨 Caveman | Claude Code | ✅ ON |
-| 💾 Mem | Claude Code | ✅ ON |
-| ⚡ Superpowers | Claude Code | ✅ ON |
-| 🤖 Ruflo | Claude Code + Desktop | ✅ ON |
-| 🎨 Frontend | Claude Code | ✅ ON |
-| 🏛️ Council | Browser :5173 | ✅ ON |
-| 📊 Graphify | Claude Code | ✅ ON |
+> ⚡ ALL tools below auto-activate at session start. No need to ask.
 
-*Last status update: May 2026 — update this table whenever tool stack changes.*
+| Tool | Where | Status | Auto-On |
+|---|---|---|---|
+| 🪨 Caveman | Claude Code | ✅ ON | ✅ Full mode |
+| 💾 Mem | Claude Code | ✅ ON | ✅ Search at start |
+| ⚡ Superpowers | Claude Code | ✅ ON | ✅ Before every build |
+| 🤖 Ruflo | Claude Code + Desktop | ✅ ON | ✅ Swarm for 3+ tasks |
+| 🎨 Frontend Design | Claude Code | ✅ ON | ✅ Production-grade UI |
+| 🏛️ Council | Browser :5173 | ✅ ON | ✅ Big decisions >₹5L |
+| 📊 Graphify | Claude Code | ✅ ON | ✅ Knowledge graph |
+
+### 🔁 Session Start Protocol (auto-run, every time)
+```
+1. Caveman FULL mode → ON
+2. claude-mem → search today's context
+3. agri-export-context → load business DNA
+4. agri-knowledge-base → check memory
+5. Frontend Design skill → loaded
+6. Ruflo swarm → ready
+7. Graphify → graph ready
+8. Report: "✅ Stack loaded. Ready for Haroon."
+```
+
+*Last status update: May 2026 — v1.2 — Full auto-on stack.*
 
 ---
 
@@ -220,7 +234,7 @@ hindalexports-cell/
 
 ---
 
-*Last updated: May 2026 | Hindal Agri Exports AI Stack v1.1 — Tool Dashboard Added*
+*Last updated: May 2026 | Hindal Agri Exports AI Stack v1.2 — Full Auto-On Stack*
 
 ## graphify
 
