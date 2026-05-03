@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.hindal.council</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/zsh</string>
+        <string>-c</string>
+        <string>cd /Users/haroon/llm-council && ./start.sh >> /tmp/hindal-council.log 2>&1</string>
+    </array>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/hindal-council.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/tmp/hindal-council-error.log</string>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/haroon/llm-council</string>
+</dict>
+</plist>
