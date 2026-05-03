@@ -160,6 +160,22 @@ MORNING BRIEFING (run as Ruflo swarm):
 
 ---
 
+## 🛠️ TOOL STATUS DASHBOARD — Live Stack
+
+| Tool | Where | Status |
+|---|---|---|
+| 🪨 Caveman | Claude Code | ✅ ON |
+| 💾 Mem | Claude Code | ✅ ON |
+| ⚡ Superpowers | Claude Code | ✅ ON |
+| 🤖 Ruflo | Claude Code + Desktop | ✅ ON |
+| 🎨 Frontend | Claude Code | ✅ ON |
+| 🏛️ Council | Browser :5173 | ✅ ON |
+| 📊 Graphify | Claude Code | ✅ ON |
+
+*Last status update: May 2026 — update this table whenever tool stack changes.*
+
+---
+
 ## 🤖 AI TOOL ROUTING — Which Tool for Which Task
 
 | Task | Tool to Use |
@@ -204,7 +220,7 @@ hindalexports-cell/
 
 ---
 
-*Last updated: May 2026 | Hindal Agri Exports AI Stack v1.0*
+*Last updated: May 2026 | Hindal Agri Exports AI Stack v1.1 — Tool Dashboard Added*
 
 ## graphify
 
