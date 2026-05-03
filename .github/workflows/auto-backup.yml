@@ -1,0 +1,71 @@
+name: 🥭 Hindal Auto-Backup
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # every 6 hours
+  workflow_dispatch:          # manual trigger from GitHub UI anytime
+  push:
+    branches: [main]          # also runs on every push
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install Graphify
+        run: pip install graphifyy
+
+      - name: 📊 Rebuild Graphify knowledge graph
+        run: |
+          cd $GITHUB_WORKSPACE
+          graphify update . || echo "No code files yet — skipping graph build"
+
+      - name: 🗂️ Ensure backup folders exist
+        run: |
+          mkdir -p backups/graphify-out
+          mkdir -p backups/claude-mem
+          mkdir -p backups/ruflo
+          mkdir -p backups/llm-council
+          mkdir -p backups/claude-config
+
+      - name: 📊 Backup Graphify output
+        run: |
+          if [ -d "graphify-out" ]; then
+            cp -r graphify-out/. backups/graphify-out/ 2>/dev/null || true
+            echo "✅ Graphify backed up"
+          else
+            echo "ℹ️ No graphify-out yet"
+          fi
+
+      - name: 📝 Write backup timestamp
+        run: |
+          echo "Last backup: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" > backups/LAST_BACKUP.txt
+          echo "Triggered by: ${{ github.event_name }}" >> backups/LAST_BACKUP.txt
+          echo "Run ID: ${{ github.run_id }}" >> backups/LAST_BACKUP.txt
+
+      - name: 📤 Commit and push if changed
+        run: |
+          git config user.name "Hindal Auto-Backup"
+          git config user.email "backup@hindal.ai"
+          git add backups/ graphify-out/ 2>/dev/null || true
+          git add CLAUDE.md 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "ℹ️ Nothing changed — no commit needed"
+          else
+            git commit -m "🔄 auto-backup: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+            echo "✅ Pushed to GitHub"
+          fi

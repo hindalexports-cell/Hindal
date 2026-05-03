@@ -1,121 +1,62 @@
-# 🥭 Hindal AI Stack — One-Time Installation Guide
-
-Run these commands ONCE to set up all 5 tools permanently.
-After setup, everything is ALWAYS ON automatically.
+# ⚡ Hindal Local Setup Guide
+# Run this ONCE on any new machine to wire everything up
 
 ---
 
-## Step 1: Install Caveman (Token Saver)
-
+## Step 1 — Clone your repo
 ```bash
-curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash
+git clone https://github.com/hindalexports-cell/Hindal
+cd Hindal
 ```
 
-Verify: Restart Claude Code → type `/caveman` → should activate.
-
----
-
-## Step 2: Install Claude-Mem (Persistent Memory)
-
+## Step 2 — Make scripts executable
 ```bash
-npx claude-mem install
+chmod +x backup.sh restore.sh
 ```
 
-Verify: Restart Claude Code → memory starts automatically.
-View memory at: http://localhost:37777
-
----
-
-## Step 3: Install Superpowers (Autonomous Execution)
-
-In Claude Code:
-```
-/plugin install superpowers@claude-plugins-official
-```
-
-Verify: Claude now checks for skills before every task.
-
----
-
-## Step 4: Install Ruflo (Multi-Agent Swarms)
-
-In Claude Code:
-```
-/plugin marketplace add ruvnet/ruflo
-/plugin install ruflo-core@ruflo
-/plugin install ruflo-swarm@ruflo
-/plugin install ruflo-autopilot@ruflo
-/plugin install ruflo-agentdb@ruflo
-/plugin install ruflo-goals@ruflo
-```
-
-Verify: Type `ruflo status` in Claude Code.
-
----
-
-## Step 5: Setup LLM-Council (Multi-AI Advisor)
-
+## Step 3 — Restore all tool data from GitHub
 ```bash
-# Clone your fork
-git clone https://github.com/hindalexports-cell/llm-council.git
-cd llm-council
+./restore.sh
+```
+Pulls back: Graphify + claude-mem + Ruflo + LLM-Council + Claude config
 
-# Install dependencies
-uv sync
-cd frontend && npm install && cd ..
-
-# Add your OpenRouter API key
-cp .env.example .env
-# Edit .env → add OPENROUTER_API_KEY=sk-or-v1-...
-# Get key at: https://openrouter.ai (load $5 credits)
-
-# Run
-./start.sh
+## Step 4 — Install Graphify
+```bash
+pip install graphifyy
+graphify claude install
+graphify hook install
 ```
 
-Verify: Open http://localhost:5173 → ask a trade question.
-
----
-
-## Step 6: Load Master Config (CLAUDE.md)
-
-In Claude Code, run:
-```
-/init
+## Step 5 — Set GitHub token
+```bash
+echo 'export GITHUB_TOKEN=ghp_yourtoken' >> ~/.bashrc
+source ~/.bashrc
 ```
 
-This loads the CLAUDE.md from this repo automatically.
-All tools will now be always-on every session.
-
----
-
-## ✅ Verification Checklist
-
-Start a new Claude Code session and check:
-```
-□ Caveman activates automatically
-□ Claude mentions checking memory at session start
-□ Superpowers skills are available
-□ Ruflo swarm commands work
-□ LLM Council at http://localhost:5173 is running
+## Step 6 — Set up auto cron (every 6 hours)
+```bash
+crontab -e
+# Add:
+0 */6 * * * cd /path/to/Hindal && GITHUB_TOKEN=ghp_yourtoken ./backup.sh >> /tmp/hindal-backup.log 2>&1
 ```
 
----
+## Step 7 — Run first backup
+```bash
+./backup.sh
+```
 
-## 🔑 API Keys Needed
-
-| Service | Where to Get | Cost |
+## ✅ Auto-backup schedule
+| Method | Frequency | Trigger |
 |---|---|---|
-| OpenRouter (for LLM Council) | openrouter.ai | ~$5 to start |
-| Anthropic (for Claude Code) | console.anthropic.com | Pay per use |
+| GitHub Action | Every 6hrs | Cloud — automatic |
+| Local cron | Every 6hrs | Your machine |
+| Git hook | Every commit | Auto |
+| Manual | Anytime | ./backup.sh |
 
----
-
-## 📞 Support
-
-If something doesn't work:
-1. Restart Claude Code completely
-2. Run `/init` again
-3. Check each tool's HINDAL.md in its repo for troubleshooting
-
-*Hindal AI Stack v1.0 | May 2026*
+## 🔁 New machine? Just run:
+```bash
+git clone https://github.com/hindalexports-cell/Hindal
+cd Hindal && chmod +x backup.sh restore.sh
+./restore.sh && pip install graphifyy && graphify claude install
+```
+Everything back in 2 minutes.
