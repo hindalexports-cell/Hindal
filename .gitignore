@@ -1,0 +1,32 @@
+# Hindal Agri Exports — .gitignore
+
+# Keep backup folders but ignore temp/large files
+backups/graphify-out/*.log
+backups/graphify-out/graph.html
+
+# Never commit tokens or secrets
+*.env
+.env*
+*token*
+*secret*
+*password*
+*.key
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Node
+node_modules/
+
+# Large binary files
+*.mp4
+*.mp3
+*.zip
+*.tar.gz
