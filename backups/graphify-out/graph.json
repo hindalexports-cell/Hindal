@@ -1,0 +1,1594 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 5,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "\ud83e\udd6d Hindal Agri Exports \u2014 AI Command Center",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "hindal_readme_hindal_agri_exports_ai_command_center",
+      "community": 5,
+      "norm_label": "\ud83e\udd6d hindal agri exports \u2014 ai command center"
+    },
+    {
+      "label": "\ud83e\udd16 Always-On AI Stack",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L8",
+      "id": "hindal_readme_always_on_ai_stack",
+      "community": 5,
+      "norm_label": "\ud83e\udd16 always-on ai stack"
+    },
+    {
+      "label": "\ud83d\udcc1 Files In This Repo",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "id": "hindal_readme_files_in_this_repo",
+      "community": 5,
+      "norm_label": "\ud83d\udcc1 files in this repo"
+    },
+    {
+      "label": "\ud83d\ude80 Quick Start",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "id": "hindal_readme_quick_start",
+      "community": 5,
+      "norm_label": "\ud83d\ude80 quick start"
+    },
+    {
+      "label": "\ud83d\udd17 Your AI Tool Repos",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "id": "hindal_readme_your_ai_tool_repos",
+      "community": 5,
+      "norm_label": "\ud83d\udd17 your ai tool repos"
+    },
+    {
+      "label": "INSTALL.md",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L1",
+      "id": "install_md",
+      "community": 1,
+      "norm_label": "install.md"
+    },
+    {
+      "label": "\u26a1 Hindal Local Setup Guide",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L1",
+      "id": "hindal_install_hindal_local_setup_guide",
+      "community": 1,
+      "norm_label": "\u26a1 hindal local setup guide"
+    },
+    {
+      "label": "Run this ONCE on any new machine to wire everything up",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L2",
+      "id": "hindal_install_run_this_once_on_any_new_machine_to_wire_everything_up",
+      "community": 1,
+      "norm_label": "run this once on any new machine to wire everything up"
+    },
+    {
+      "label": "Step 1 \u2014 Clone your repo",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L6",
+      "id": "hindal_install_step_1_clone_your_repo",
+      "community": 1,
+      "norm_label": "step 1 \u2014 clone your repo"
+    },
+    {
+      "label": "code:bash (git clone https://github.com/hindalexports-cell/Hindal)",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L7",
+      "id": "hindal_install_codeblock_1",
+      "community": 1,
+      "norm_label": "code:bash (git clone https://github.com/hindalexports-cell/hindal)"
+    },
+    {
+      "label": "Step 2 \u2014 Make scripts executable",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L12",
+      "id": "hindal_install_step_2_make_scripts_executable",
+      "community": 1,
+      "norm_label": "step 2 \u2014 make scripts executable"
+    },
+    {
+      "label": "code:bash (chmod +x backup.sh restore.sh)",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L13",
+      "id": "hindal_install_codeblock_2",
+      "community": 1,
+      "norm_label": "code:bash (chmod +x backup.sh restore.sh)"
+    },
+    {
+      "label": "Step 3 \u2014 Restore all tool data from GitHub",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L17",
+      "id": "hindal_install_step_3_restore_all_tool_data_from_github",
+      "community": 1,
+      "norm_label": "step 3 \u2014 restore all tool data from github"
+    },
+    {
+      "label": "code:bash (./restore.sh)",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L18",
+      "id": "hindal_install_codeblock_3",
+      "community": 1,
+      "norm_label": "code:bash (./restore.sh)"
+    },
+    {
+      "label": "Step 4 \u2014 Install Graphify",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L23",
+      "id": "hindal_install_step_4_install_graphify",
+      "community": 1,
+      "norm_label": "step 4 \u2014 install graphify"
+    },
+    {
+      "label": "code:bash (pip install graphifyy)",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L24",
+      "id": "hindal_install_codeblock_4",
+      "community": 1,
+      "norm_label": "code:bash (pip install graphifyy)"
+    },
+    {
+      "label": "Step 5 \u2014 Set GitHub token",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L30",
+      "id": "hindal_install_step_5_set_github_token",
+      "community": 1,
+      "norm_label": "step 5 \u2014 set github token"
+    },
+    {
+      "label": "code:bash (echo 'export GITHUB_TOKEN=ghp_yourtoken' >> ~/.bashrc)",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L31",
+      "id": "hindal_install_codeblock_5",
+      "community": 1,
+      "norm_label": "code:bash (echo 'export github_token=ghp_yourtoken' >> ~/.bashrc)"
+    },
+    {
+      "label": "Step 6 \u2014 Set up auto cron (every 6 hours)",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L36",
+      "id": "hindal_install_step_6_set_up_auto_cron_every_6_hours",
+      "community": 1,
+      "norm_label": "step 6 \u2014 set up auto cron (every 6 hours)"
+    },
+    {
+      "label": "code:bash (crontab -e)",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L37",
+      "id": "hindal_install_codeblock_6",
+      "community": 1,
+      "norm_label": "code:bash (crontab -e)"
+    },
+    {
+      "label": "Step 7 \u2014 Run first backup",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L43",
+      "id": "hindal_install_step_7_run_first_backup",
+      "community": 1,
+      "norm_label": "step 7 \u2014 run first backup"
+    },
+    {
+      "label": "code:bash (./backup.sh)",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L44",
+      "id": "hindal_install_codeblock_7",
+      "community": 1,
+      "norm_label": "code:bash (./backup.sh)"
+    },
+    {
+      "label": "\u2705 Auto-backup schedule",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L48",
+      "id": "hindal_install_auto_backup_schedule",
+      "community": 1,
+      "norm_label": "\u2705 auto-backup schedule"
+    },
+    {
+      "label": "\ud83d\udd01 New machine? Just run:",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L56",
+      "id": "hindal_install_new_machine_just_run",
+      "community": 1,
+      "norm_label": "\ud83d\udd01 new machine? just run:"
+    },
+    {
+      "label": "code:bash (git clone https://github.com/hindalexports-cell/Hindal)",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "L57",
+      "id": "hindal_install_codeblock_8",
+      "community": 1,
+      "norm_label": "code:bash (git clone https://github.com/hindalexports-cell/hindal)"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "id": "claude_md",
+      "community": 0,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "\ud83e\udd6d Hindal Agri Exports \u2014 Master AI Configuration",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "id": "hindal_claude_hindal_agri_exports_master_ai_configuration",
+      "community": 0,
+      "norm_label": "\ud83e\udd6d hindal agri exports \u2014 master ai configuration"
+    },
+    {
+      "label": "This file loads automatically at the start of EVERY Claude session.",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L2",
+      "id": "hindal_claude_this_file_loads_automatically_at_the_start_of_every_claude_session",
+      "community": 0,
+      "norm_label": "this file loads automatically at the start of every claude session."
+    },
+    {
+      "label": "All tools below are ALWAYS ON.",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L3",
+      "id": "hindal_claude_all_tools_below_are_always_on",
+      "community": 0,
+      "norm_label": "all tools below are always on."
+    },
+    {
+      "label": "\ud83d\udd34 ALWAYS ACTIVE: Load These First",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L7",
+      "id": "hindal_claude_always_active_load_these_first",
+      "community": 6,
+      "norm_label": "\ud83d\udd34 always active: load these first"
+    },
+    {
+      "label": "1. CAVEMAN MODE \u2014 Always On",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L9",
+      "id": "hindal_claude_1_caveman_mode_always_on",
+      "community": 6,
+      "norm_label": "1. caveman mode \u2014 always on"
+    },
+    {
+      "label": "2. CLAUDE-MEM \u2014 Always On",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L16",
+      "id": "hindal_claude_2_claude_mem_always_on",
+      "community": 6,
+      "norm_label": "2. claude-mem \u2014 always on"
+    },
+    {
+      "label": "3. SUPERPOWERS \u2014 Always On",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L25",
+      "id": "hindal_claude_3_superpowers_always_on",
+      "community": 6,
+      "norm_label": "3. superpowers \u2014 always on"
+    },
+    {
+      "label": "4. RUFLO \u2014 Always On",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L32",
+      "id": "hindal_claude_4_ruflo_always_on",
+      "community": 6,
+      "norm_label": "4. ruflo \u2014 always on"
+    },
+    {
+      "label": "5. LLM-COUNCIL \u2014 Always On for Big Decisions",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L38",
+      "id": "hindal_claude_5_llm_council_always_on_for_big_decisions",
+      "community": 6,
+      "norm_label": "5. llm-council \u2014 always on for big decisions"
+    },
+    {
+      "label": "\ud83c\udfe2 BUSINESS CONTEXT \u2014 Auto-Load Every Session",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L47",
+      "id": "hindal_claude_business_context_auto_load_every_session",
+      "community": 7,
+      "norm_label": "\ud83c\udfe2 business context \u2014 auto-load every session"
+    },
+    {
+      "label": "Products",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L55",
+      "id": "hindal_claude_products",
+      "community": 7,
+      "norm_label": "products"
+    },
+    {
+      "label": "Markets",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L61",
+      "id": "hindal_claude_markets",
+      "community": 7,
+      "norm_label": "markets"
+    },
+    {
+      "label": "Key Ports",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L65",
+      "id": "hindal_claude_key_ports",
+      "community": 7,
+      "norm_label": "key ports"
+    },
+    {
+      "label": "Payment Terms",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L69",
+      "id": "hindal_claude_payment_terms",
+      "community": 7,
+      "norm_label": "payment terms"
+    },
+    {
+      "label": "Incoterms",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L74",
+      "id": "hindal_claude_incoterms",
+      "community": 7,
+      "norm_label": "incoterms"
+    },
+    {
+      "label": "\ud83d\udcb0 COSTING FORMULA \u2014 Always Use This",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L81",
+      "id": "hindal_claude_costing_formula_always_use_this",
+      "community": 0,
+      "norm_label": "\ud83d\udcb0 costing formula \u2014 always use this"
+    },
+    {
+      "label": "code:block1 (Final USD/Kg = (Purchase \u20b9/Kg)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L83",
+      "id": "hindal_claude_codeblock_1",
+      "community": 0,
+      "norm_label": "code:block1 (final usd/kg = (purchase \u20b9/kg)"
+    },
+    {
+      "label": "\ud83d\udccb COMPLIANCE DOCUMENTS \u2014 Per Shipment",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L106",
+      "id": "hindal_claude_compliance_documents_per_shipment",
+      "community": 0,
+      "norm_label": "\ud83d\udccb compliance documents \u2014 per shipment"
+    },
+    {
+      "label": "\ud83d\udcc5 DAILY WORKFLOW \u2014 Auto-Run Each Morning",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L118",
+      "id": "hindal_claude_daily_workflow_auto_run_each_morning",
+      "community": 0,
+      "norm_label": "\ud83d\udcc5 daily workflow \u2014 auto-run each morning"
+    },
+    {
+      "label": "code:block2 (MORNING BRIEFING (run as Ruflo swarm):)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L120",
+      "id": "hindal_claude_codeblock_2",
+      "community": 0,
+      "norm_label": "code:block2 (morning briefing (run as ruflo swarm):)"
+    },
+    {
+      "label": "\ud83d\udea8 IRAN RISK ALERTS \u2014 Always Flag These",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L133",
+      "id": "hindal_claude_iran_risk_alerts_always_flag_these",
+      "community": 0,
+      "norm_label": "\ud83d\udea8 iran risk alerts \u2014 always flag these"
+    },
+    {
+      "label": "\ud83c\udf0d TARGET MARKET RULES",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L142",
+      "id": "hindal_claude_target_market_rules",
+      "community": 0,
+      "norm_label": "\ud83c\udf0d target market rules"
+    },
+    {
+      "label": "\ud83d\udcac LANGUAGE RULES",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L153",
+      "id": "hindal_claude_language_rules",
+      "community": 0,
+      "norm_label": "\ud83d\udcac language rules"
+    },
+    {
+      "label": "\ud83d\udee0\ufe0f TOOL STATUS DASHBOARD \u2014 Always On Stack",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L163",
+      "id": "hindal_claude_tool_status_dashboard_always_on_stack",
+      "community": 0,
+      "norm_label": "\ud83d\udee0\ufe0f tool status dashboard \u2014 always on stack"
+    },
+    {
+      "label": "\ud83d\udd01 Session Start Protocol (auto-run, every time)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L177",
+      "id": "hindal_claude_session_start_protocol_auto_run_every_time",
+      "community": 0,
+      "norm_label": "\ud83d\udd01 session start protocol (auto-run, every time)"
+    },
+    {
+      "label": "code:block3 (1. Caveman FULL mode \u2192 ON)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L178",
+      "id": "hindal_claude_codeblock_3",
+      "community": 0,
+      "norm_label": "code:block3 (1. caveman full mode \u2192 on)"
+    },
+    {
+      "label": "\ud83e\udd16 AI TOOL ROUTING \u2014 Which Tool for Which Task",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L193",
+      "id": "hindal_claude_ai_tool_routing_which_tool_for_which_task",
+      "community": 0,
+      "norm_label": "\ud83e\udd16 ai tool routing \u2014 which tool for which task"
+    },
+    {
+      "label": "\u26a1 SESSION START CHECKLIST (auto-run every time)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L210",
+      "id": "hindal_claude_session_start_checklist_auto_run_every_time",
+      "community": 0,
+      "norm_label": "\u26a1 session start checklist (auto-run every time)"
+    },
+    {
+      "label": "code:block4 (\u25a1 1. Activate caveman mode (full))",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L212",
+      "id": "hindal_claude_codeblock_4",
+      "community": 0,
+      "norm_label": "code:block4 (\u25a1 1. activate caveman mode (full))"
+    },
+    {
+      "label": "\ud83d\udcc1 REPO STRUCTURE",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L222",
+      "id": "hindal_claude_repo_structure",
+      "community": 0,
+      "norm_label": "\ud83d\udcc1 repo structure"
+    },
+    {
+      "label": "code:block5 (hindalexports-cell/)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L224",
+      "id": "hindal_claude_codeblock_5",
+      "community": 0,
+      "norm_label": "code:block5 (hindalexports-cell/)"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L239",
+      "id": "hindal_claude_graphify",
+      "community": 0,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "MORNING_BRIEFING.md",
+      "file_type": "document",
+      "source_file": "MORNING_BRIEFING.md",
+      "source_location": "L1",
+      "id": "morning_briefing_md",
+      "community": 3,
+      "norm_label": "morning_briefing.md"
+    },
+    {
+      "label": "\ud83c\udf05 Hindal Morning Briefing \u2014 Daily Runbook",
+      "file_type": "document",
+      "source_file": "MORNING_BRIEFING.md",
+      "source_location": "L1",
+      "id": "hindal_morning_briefing_hindal_morning_briefing_daily_runbook",
+      "community": 3,
+      "norm_label": "\ud83c\udf05 hindal morning briefing \u2014 daily runbook"
+    },
+    {
+      "label": "\ud83d\udccb Morning Briefing Prompt (Copy-Paste Daily)",
+      "file_type": "document",
+      "source_file": "MORNING_BRIEFING.md",
+      "source_location": "L8",
+      "id": "hindal_morning_briefing_morning_briefing_prompt_copy_paste_daily",
+      "community": 3,
+      "norm_label": "\ud83d\udccb morning briefing prompt (copy-paste daily)"
+    },
+    {
+      "label": "code:block1 (Good morning. Run Hindal morning briefing as Ruflo swarm:)",
+      "file_type": "document",
+      "source_file": "MORNING_BRIEFING.md",
+      "source_location": "L10",
+      "id": "hindal_morning_briefing_codeblock_1",
+      "community": 3,
+      "norm_label": "code:block1 (good morning. run hindal morning briefing as ruflo swarm:)"
+    },
+    {
+      "label": "\ud83d\udcca Weekly Review Prompt (Every Friday)",
+      "file_type": "document",
+      "source_file": "MORNING_BRIEFING.md",
+      "source_location": "L41",
+      "id": "hindal_morning_briefing_weekly_review_prompt_every_friday",
+      "community": 3,
+      "norm_label": "\ud83d\udcca weekly review prompt (every friday)"
+    },
+    {
+      "label": "code:block2 (Weekly Hindal review:)",
+      "file_type": "document",
+      "source_file": "MORNING_BRIEFING.md",
+      "source_location": "L43",
+      "id": "hindal_morning_briefing_codeblock_2",
+      "community": 3,
+      "norm_label": "code:block2 (weekly hindal review:)"
+    },
+    {
+      "label": "\ud83c\udfaf Monthly Strategy Prompt (1st of every month)",
+      "file_type": "document",
+      "source_file": "MORNING_BRIEFING.md",
+      "source_location": "L57",
+      "id": "hindal_morning_briefing_monthly_strategy_prompt_1st_of_every_month",
+      "community": 3,
+      "norm_label": "\ud83c\udfaf monthly strategy prompt (1st of every month)"
+    },
+    {
+      "label": "code:block3 (Monthly Hindal strategy review:)",
+      "file_type": "document",
+      "source_file": "MORNING_BRIEFING.md",
+      "source_location": "L59",
+      "id": "hindal_morning_briefing_codeblock_3",
+      "community": 3,
+      "norm_label": "code:block3 (monthly hindal strategy review:)"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "plugins/frontend-design/README.md",
+      "source_location": "L1",
+      "id": "plugins_frontend_design_readme_md",
+      "community": 2,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Frontend Design Plugin",
+      "file_type": "document",
+      "source_file": "plugins/frontend-design/README.md",
+      "source_location": "L1",
+      "id": "frontend_design_readme_frontend_design_plugin",
+      "community": 2,
+      "norm_label": "frontend design plugin"
+    },
+    {
+      "label": "What It Does",
+      "file_type": "document",
+      "source_file": "plugins/frontend-design/README.md",
+      "source_location": "L5",
+      "id": "frontend_design_readme_what_it_does",
+      "community": 2,
+      "norm_label": "what it does"
+    },
+    {
+      "label": "Usage",
+      "file_type": "document",
+      "source_file": "plugins/frontend-design/README.md",
+      "source_location": "L14",
+      "id": "frontend_design_readme_usage",
+      "community": 2,
+      "norm_label": "usage"
+    },
+    {
+      "label": "code:block1 (\"Create a dashboard for a music streaming app\")",
+      "file_type": "document",
+      "source_file": "plugins/frontend-design/README.md",
+      "source_location": "L16",
+      "id": "frontend_design_readme_codeblock_1",
+      "community": 2,
+      "norm_label": "code:block1 (\"create a dashboard for a music streaming app\")"
+    },
+    {
+      "label": "Learn More",
+      "file_type": "document",
+      "source_file": "plugins/frontend-design/README.md",
+      "source_location": "L24",
+      "id": "frontend_design_readme_learn_more",
+      "community": 2,
+      "norm_label": "learn more"
+    },
+    {
+      "label": "Authors",
+      "file_type": "document",
+      "source_file": "plugins/frontend-design/README.md",
+      "source_location": "L28",
+      "id": "frontend_design_readme_authors",
+      "community": 2,
+      "norm_label": "authors"
+    },
+    {
+      "label": "\ud83e\udd6d Hindal Agri Exports Use Cases",
+      "file_type": "document",
+      "source_file": "plugins/frontend-design/README.md",
+      "source_location": "L35",
+      "id": "frontend_design_readme_hindal_agri_exports_use_cases",
+      "community": 2,
+      "norm_label": "\ud83e\udd6d hindal agri exports use cases"
+    },
+    {
+      "label": "code:block2 (\"Build a daily market rate dashboard for mango, cumin, chick)",
+      "file_type": "document",
+      "source_file": "plugins/frontend-design/README.md",
+      "source_location": "L39",
+      "id": "frontend_design_readme_codeblock_2",
+      "community": 2,
+      "norm_label": "code:block2 (\"build a daily market rate dashboard for mango, cumin, chick)"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": "plugins/frontend-design/skills/frontend-design/SKILL.md",
+      "source_location": "L1",
+      "id": "plugins_frontend_design_skills_frontend_design_skill_md",
+      "community": 8,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Design Thinking",
+      "file_type": "document",
+      "source_file": "plugins/frontend-design/skills/frontend-design/SKILL.md",
+      "source_location": "L11",
+      "id": "frontend_design_skill_design_thinking",
+      "community": 8,
+      "norm_label": "design thinking"
+    },
+    {
+      "label": "Frontend Aesthetics Guidelines",
+      "file_type": "document",
+      "source_file": "plugins/frontend-design/skills/frontend-design/SKILL.md",
+      "source_location": "L27",
+      "id": "frontend_design_skill_frontend_aesthetics_guidelines",
+      "community": 8,
+      "norm_label": "frontend aesthetics guidelines"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "backups/README.md",
+      "source_location": "L1",
+      "id": "backups_readme_md",
+      "community": 4,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "\ud83d\uddc4\ufe0f Hindal Tool Data Backups",
+      "file_type": "document",
+      "source_file": "backups/README.md",
+      "source_location": "L1",
+      "id": "backups_readme_hindal_tool_data_backups",
+      "community": 4,
+      "norm_label": "\ud83d\uddc4\ufe0f hindal tool data backups"
+    },
+    {
+      "label": "Restore on new machine",
+      "file_type": "document",
+      "source_file": "backups/README.md",
+      "source_location": "L13",
+      "id": "backups_readme_restore_on_new_machine",
+      "community": 4,
+      "norm_label": "restore on new machine"
+    },
+    {
+      "label": "code:bash (git clone https://github.com/hindalexports-cell/Hindal)",
+      "file_type": "document",
+      "source_file": "backups/README.md",
+      "source_location": "L14",
+      "id": "backups_readme_codeblock_1",
+      "community": 4,
+      "norm_label": "code:bash (git clone https://github.com/hindalexports-cell/hindal)"
+    },
+    {
+      "label": "Manual backup",
+      "file_type": "document",
+      "source_file": "backups/README.md",
+      "source_location": "L20",
+      "id": "backups_readme_manual_backup",
+      "community": 4,
+      "norm_label": "manual backup"
+    },
+    {
+      "label": "code:bash (./backup.sh)",
+      "file_type": "document",
+      "source_file": "backups/README.md",
+      "source_location": "L21",
+      "id": "backups_readme_codeblock_2",
+      "community": 4,
+      "norm_label": "code:bash (./backup.sh)"
+    },
+    {
+      "label": "Auto backup (cron \u2014 every 6 hours)",
+      "file_type": "document",
+      "source_file": "backups/README.md",
+      "source_location": "L25",
+      "id": "backups_readme_auto_backup_cron_every_6_hours",
+      "community": 4,
+      "norm_label": "auto backup (cron \u2014 every 6 hours)"
+    },
+    {
+      "label": "code:bash (crontab -e)",
+      "file_type": "document",
+      "source_file": "backups/README.md",
+      "source_location": "L26",
+      "id": "backups_readme_codeblock_3",
+      "community": 4,
+      "norm_label": "code:bash (crontab -e)"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme_md",
+      "target": "hindal_readme_hindal_agri_exports_ai_command_center",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "hindal_readme_hindal_agri_exports_ai_command_center",
+      "target": "hindal_readme_always_on_ai_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "hindal_readme_hindal_agri_exports_ai_command_center",
+      "target": "hindal_readme_files_in_this_repo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "hindal_readme_hindal_agri_exports_ai_command_center",
+      "target": "hindal_readme_quick_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "hindal_readme_hindal_agri_exports_ai_command_center",
+      "target": "hindal_readme_your_ai_tool_repos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "INSTALL.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "install_md",
+      "target": "hindal_install_hindal_local_setup_guide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "INSTALL.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "install_md",
+      "target": "hindal_install_run_this_once_on_any_new_machine_to_wire_everything_up",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "INSTALL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "hindal_install_run_this_once_on_any_new_machine_to_wire_everything_up",
+      "target": "hindal_install_step_1_clone_your_repo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "INSTALL.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "hindal_install_run_this_once_on_any_new_machine_to_wire_everything_up",
+      "target": "hindal_install_step_2_make_scripts_executable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "INSTALL.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "hindal_install_run_this_once_on_any_new_machine_to_wire_everything_up",
+      "target": "hindal_install_step_3_restore_all_tool_data_from_github",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "INSTALL.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "hindal_install_run_this_once_on_any_new_machine_to_wire_everything_up",
+      "target": "hindal_install_step_4_install_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "INSTALL.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "hindal_install_run_this_once_on_any_new_machine_to_wire_everything_up",
+      "target": "hindal_install_step_5_set_github_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "INSTALL.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "hindal_install_run_this_once_on_any_new_machine_to_wire_everything_up",
+      "target": "hindal_install_step_6_set_up_auto_cron_every_6_hours",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "INSTALL.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "hindal_install_run_this_once_on_any_new_machine_to_wire_everything_up",
+      "target": "hindal_install_step_7_run_first_backup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "INSTALL.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "hindal_install_run_this_once_on_any_new_machine_to_wire_everything_up",
+      "target": "hindal_install_auto_backup_schedule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "INSTALL.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "hindal_install_run_this_once_on_any_new_machine_to_wire_everything_up",
+      "target": "hindal_install_new_machine_just_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "INSTALL.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "hindal_install_step_1_clone_your_repo",
+      "target": "hindal_install_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "INSTALL.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "hindal_install_step_2_make_scripts_executable",
+      "target": "hindal_install_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "INSTALL.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "hindal_install_step_3_restore_all_tool_data_from_github",
+      "target": "hindal_install_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "INSTALL.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "hindal_install_step_4_install_graphify",
+      "target": "hindal_install_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "INSTALL.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "hindal_install_step_5_set_github_token",
+      "target": "hindal_install_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "INSTALL.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "hindal_install_step_6_set_up_auto_cron_every_6_hours",
+      "target": "hindal_install_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "INSTALL.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "hindal_install_step_7_run_first_backup",
+      "target": "hindal_install_codeblock_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "INSTALL.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "hindal_install_new_machine_just_run",
+      "target": "hindal_install_codeblock_8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude_md",
+      "target": "hindal_claude_hindal_agri_exports_master_ai_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "claude_md",
+      "target": "hindal_claude_this_file_loads_automatically_at_the_start_of_every_claude_session",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "claude_md",
+      "target": "hindal_claude_all_tools_below_are_always_on",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "hindal_claude_all_tools_below_are_always_on",
+      "target": "hindal_claude_always_active_load_these_first",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "hindal_claude_all_tools_below_are_always_on",
+      "target": "hindal_claude_business_context_auto_load_every_session",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "hindal_claude_all_tools_below_are_always_on",
+      "target": "hindal_claude_costing_formula_always_use_this",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "hindal_claude_all_tools_below_are_always_on",
+      "target": "hindal_claude_compliance_documents_per_shipment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "hindal_claude_all_tools_below_are_always_on",
+      "target": "hindal_claude_daily_workflow_auto_run_each_morning",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "hindal_claude_all_tools_below_are_always_on",
+      "target": "hindal_claude_iran_risk_alerts_always_flag_these",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "hindal_claude_all_tools_below_are_always_on",
+      "target": "hindal_claude_target_market_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "hindal_claude_all_tools_below_are_always_on",
+      "target": "hindal_claude_language_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L163",
+      "weight": 1.0,
+      "source": "hindal_claude_all_tools_below_are_always_on",
+      "target": "hindal_claude_tool_status_dashboard_always_on_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L193",
+      "weight": 1.0,
+      "source": "hindal_claude_all_tools_below_are_always_on",
+      "target": "hindal_claude_ai_tool_routing_which_tool_for_which_task",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L210",
+      "weight": 1.0,
+      "source": "hindal_claude_all_tools_below_are_always_on",
+      "target": "hindal_claude_session_start_checklist_auto_run_every_time",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L222",
+      "weight": 1.0,
+      "source": "hindal_claude_all_tools_below_are_always_on",
+      "target": "hindal_claude_repo_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L239",
+      "weight": 1.0,
+      "source": "hindal_claude_all_tools_below_are_always_on",
+      "target": "hindal_claude_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "hindal_claude_always_active_load_these_first",
+      "target": "hindal_claude_1_caveman_mode_always_on",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "hindal_claude_always_active_load_these_first",
+      "target": "hindal_claude_2_claude_mem_always_on",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "hindal_claude_always_active_load_these_first",
+      "target": "hindal_claude_3_superpowers_always_on",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "hindal_claude_always_active_load_these_first",
+      "target": "hindal_claude_4_ruflo_always_on",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "hindal_claude_always_active_load_these_first",
+      "target": "hindal_claude_5_llm_council_always_on_for_big_decisions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "hindal_claude_business_context_auto_load_every_session",
+      "target": "hindal_claude_products",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "hindal_claude_business_context_auto_load_every_session",
+      "target": "hindal_claude_markets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "hindal_claude_business_context_auto_load_every_session",
+      "target": "hindal_claude_key_ports",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "hindal_claude_business_context_auto_load_every_session",
+      "target": "hindal_claude_payment_terms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "hindal_claude_business_context_auto_load_every_session",
+      "target": "hindal_claude_incoterms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "hindal_claude_costing_formula_always_use_this",
+      "target": "hindal_claude_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "hindal_claude_daily_workflow_auto_run_each_morning",
+      "target": "hindal_claude_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L177",
+      "weight": 1.0,
+      "source": "hindal_claude_tool_status_dashboard_always_on_stack",
+      "target": "hindal_claude_session_start_protocol_auto_run_every_time",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "hindal_claude_session_start_protocol_auto_run_every_time",
+      "target": "hindal_claude_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L212",
+      "weight": 1.0,
+      "source": "hindal_claude_session_start_checklist_auto_run_every_time",
+      "target": "hindal_claude_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L224",
+      "weight": 1.0,
+      "source": "hindal_claude_repo_structure",
+      "target": "hindal_claude_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MORNING_BRIEFING.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "morning_briefing_md",
+      "target": "hindal_morning_briefing_hindal_morning_briefing_daily_runbook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MORNING_BRIEFING.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "hindal_morning_briefing_hindal_morning_briefing_daily_runbook",
+      "target": "hindal_morning_briefing_morning_briefing_prompt_copy_paste_daily",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MORNING_BRIEFING.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "hindal_morning_briefing_hindal_morning_briefing_daily_runbook",
+      "target": "hindal_morning_briefing_weekly_review_prompt_every_friday",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MORNING_BRIEFING.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "hindal_morning_briefing_hindal_morning_briefing_daily_runbook",
+      "target": "hindal_morning_briefing_monthly_strategy_prompt_1st_of_every_month",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MORNING_BRIEFING.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "hindal_morning_briefing_morning_briefing_prompt_copy_paste_daily",
+      "target": "hindal_morning_briefing_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MORNING_BRIEFING.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "hindal_morning_briefing_weekly_review_prompt_every_friday",
+      "target": "hindal_morning_briefing_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MORNING_BRIEFING.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "hindal_morning_briefing_monthly_strategy_prompt_1st_of_every_month",
+      "target": "hindal_morning_briefing_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "plugins/frontend-design/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "plugins_frontend_design_readme_md",
+      "target": "frontend_design_readme_frontend_design_plugin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "plugins/frontend-design/README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_design_readme_frontend_design_plugin",
+      "target": "frontend_design_readme_what_it_does",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "plugins/frontend-design/README.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "frontend_design_readme_frontend_design_plugin",
+      "target": "frontend_design_readme_usage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "plugins/frontend-design/README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "frontend_design_readme_frontend_design_plugin",
+      "target": "frontend_design_readme_learn_more",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "plugins/frontend-design/README.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "frontend_design_readme_frontend_design_plugin",
+      "target": "frontend_design_readme_authors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "plugins/frontend-design/README.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "frontend_design_readme_frontend_design_plugin",
+      "target": "frontend_design_readme_hindal_agri_exports_use_cases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "plugins/frontend-design/README.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "frontend_design_readme_usage",
+      "target": "frontend_design_readme_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "plugins/frontend-design/README.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "frontend_design_readme_hindal_agri_exports_use_cases",
+      "target": "frontend_design_readme_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "plugins/frontend-design/skills/frontend-design/SKILL.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "plugins_frontend_design_skills_frontend_design_skill_md",
+      "target": "frontend_design_skill_design_thinking",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "plugins/frontend-design/skills/frontend-design/SKILL.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "plugins_frontend_design_skills_frontend_design_skill_md",
+      "target": "frontend_design_skill_frontend_aesthetics_guidelines",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backups/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "backups_readme_md",
+      "target": "backups_readme_hindal_tool_data_backups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backups/README.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "backups_readme_hindal_tool_data_backups",
+      "target": "backups_readme_restore_on_new_machine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backups/README.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "backups_readme_hindal_tool_data_backups",
+      "target": "backups_readme_manual_backup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backups/README.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "backups_readme_hindal_tool_data_backups",
+      "target": "backups_readme_auto_backup_cron_every_6_hours",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backups/README.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "backups_readme_restore_on_new_machine",
+      "target": "backups_readme_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backups/README.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "backups_readme_manual_backup",
+      "target": "backups_readme_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backups/README.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "backups_readme_auto_backup_cron_every_6_hours",
+      "target": "backups_readme_codeblock_3",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "970a8e9296a33a755ae5bb9934aed036c7acdf04"
+}
