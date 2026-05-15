@@ -1,16 +1,16 @@
-# Graph Report - Hindal  (2026-05-13)
+# Graph Report - Hindal  (2026-05-15)
 
 ## Corpus Check
-- 7 files · ~2,970 words
+- 10 files · ~3,834 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 87 nodes · 80 edges · 9 communities (8 shown, 1 thin omitted)
+- 90 nodes · 80 edges · 13 communities (11 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `dfa90076`
+- Built from commit: `24dc8831`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -24,6 +24,7 @@
 - [[_COMMUNITY_Community 6|Community 6]]
 - [[_COMMUNITY_Community 7|Community 7]]
 - [[_COMMUNITY_Community 8|Community 8]]
+- [[_COMMUNITY_Community 9|Community 9]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `All tools below are ALWAYS ON.` - 14 edges
@@ -40,11 +41,11 @@
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (9 total, 1 thin omitted)
+## Communities (13 total, 2 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.1
-Nodes (20): 🤖 AI TOOL ROUTING — Which Tool for Which Task, All tools below are ALWAYS ON., code:block1 (Final USD/Kg = (Purchase ₹/Kg), code:block2 (MORNING BRIEFING (run as Ruflo swarm):), code:block3 (1. Caveman FULL mode → ON), code:block4 (□ 1. Activate caveman mode (full)), code:block5 (hindalexports-cell/), 📋 COMPLIANCE DOCUMENTS — Per Shipment (+12 more)
+Cohesion: 0.11
+Nodes (18): 🤖 AI TOOL ROUTING — Which Tool for Which Task, All tools below are ALWAYS ON., code:block1 (Final USD/Kg = (Purchase ₹/Kg), code:block2 (MORNING BRIEFING (run as Ruflo swarm):), code:block3 (1. Caveman FULL mode → ON), code:block4 (□ 1. Activate caveman mode (full)), code:block5 (hindalexports-cell/), 📋 COMPLIANCE DOCUMENTS — Per Shipment (+10 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.1
@@ -75,20 +76,20 @@ Cohesion: 0.33
 Nodes (6): 🏢 BUSINESS CONTEXT — Auto-Load Every Session, Incoterms, Key Ports, Markets, Payment Terms, Products
 
 ## Knowledge Gaps
-- **50 isolated node(s):** `🤖 Always-On AI Stack`, `📁 Files In This Repo`, `🚀 Quick Start`, `🔗 Your AI Tool Repos`, `⚡ Hindal Local Setup Guide` (+45 more)
+- **50 isolated node(s):** `⚡ Hindal Local Setup Guide`, `code:bash (git clone https://github.com/hindalexports-cell/Hindal)`, `code:bash (chmod +x backup.sh restore.sh)`, `code:bash (./restore.sh)`, `code:bash (pip install graphifyy)` (+45 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `All tools below are ALWAYS ON.` connect `Community 0` to `Community 6`, `Community 7`?**
-  _High betweenness centrality (0.125) - this node is a cross-community bridge._
+- **Why does `All tools below are ALWAYS ON.` connect `Community 0` to `Community 9`, `Community 6`, `Community 7`?**
+  _High betweenness centrality (0.116) - this node is a cross-community bridge._
 - **Why does `🔴 ALWAYS ACTIVE: Load These First` connect `Community 6` to `Community 0`?**
-  _High betweenness centrality (0.040) - this node is a cross-community bridge._
-- **What connects `🤖 Always-On AI Stack`, `📁 Files In This Repo`, `🚀 Quick Start` to the rest of the system?**
+  _High betweenness centrality (0.037) - this node is a cross-community bridge._
+- **What connects `⚡ Hindal Local Setup Guide`, `code:bash (git clone https://github.com/hindalexports-cell/Hindal)`, `code:bash (chmod +x backup.sh restore.sh)` to the rest of the system?**
   _50 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.11 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.1 - nodes in this community are weakly interconnected._

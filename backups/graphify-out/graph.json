@@ -4,58 +4,31 @@
   "graph": {},
   "nodes": [
     {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "README.md",
+      "label": "backup.sh",
+      "file_type": "code",
+      "source_file": "backup.sh",
       "source_location": "L1",
-      "id": "readme_md",
-      "community": 5,
-      "norm_label": "readme.md"
+      "id": "backup_sh",
+      "community": 11,
+      "norm_label": "backup.sh"
     },
     {
-      "label": "\ud83e\udd6d Hindal Agri Exports \u2014 AI Command Center",
-      "file_type": "document",
-      "source_file": "README.md",
+      "label": "restore.sh",
+      "file_type": "code",
+      "source_file": "restore.sh",
       "source_location": "L1",
-      "id": "hindal_readme_hindal_agri_exports_ai_command_center",
-      "community": 5,
-      "norm_label": "\ud83e\udd6d hindal agri exports \u2014 ai command center"
+      "id": "restore_sh",
+      "community": 12,
+      "norm_label": "restore.sh"
     },
     {
-      "label": "\ud83e\udd16 Always-On AI Stack",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L8",
-      "id": "hindal_readme_always_on_ai_stack",
-      "community": 5,
-      "norm_label": "\ud83e\udd16 always-on ai stack"
-    },
-    {
-      "label": "\ud83d\udcc1 Files In This Repo",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L20",
-      "id": "hindal_readme_files_in_this_repo",
-      "community": 5,
-      "norm_label": "\ud83d\udcc1 files in this repo"
-    },
-    {
-      "label": "\ud83d\ude80 Quick Start",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L31",
-      "id": "hindal_readme_quick_start",
-      "community": 5,
-      "norm_label": "\ud83d\ude80 quick start"
-    },
-    {
-      "label": "\ud83d\udd17 Your AI Tool Repos",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L40",
-      "id": "hindal_readme_your_ai_tool_repos",
-      "community": 5,
-      "norm_label": "\ud83d\udd17 your ai tool repos"
+      "label": "autostart.sh",
+      "file_type": "code",
+      "source_file": "autostart.sh",
+      "source_location": "L1",
+      "id": "autostart_sh",
+      "community": 10,
+      "norm_label": "autostart.sh"
     },
     {
       "label": "INSTALL.md",
@@ -243,7 +216,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "id": "claude_md",
-      "community": 0,
+      "community": 9,
       "norm_label": "claude.md"
     },
     {
@@ -252,7 +225,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "id": "hindal_claude_hindal_agri_exports_master_ai_configuration",
-      "community": 0,
+      "community": 9,
       "norm_label": "\ud83e\udd6d hindal agri exports \u2014 master ai configuration"
     },
     {
@@ -261,7 +234,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L2",
       "id": "hindal_claude_this_file_loads_automatically_at_the_start_of_every_claude_session",
-      "community": 0,
+      "community": 9,
       "norm_label": "this file loads automatically at the start of every claude session."
     },
     {
@@ -535,6 +508,60 @@
       "norm_label": "graphify"
     },
     {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 5,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "\ud83e\udd6d Hindal Agri Exports \u2014 AI Command Center",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "hindal_readme_hindal_agri_exports_ai_command_center",
+      "community": 5,
+      "norm_label": "\ud83e\udd6d hindal agri exports \u2014 ai command center"
+    },
+    {
+      "label": "\ud83e\udd16 Always-On AI Stack",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L8",
+      "id": "hindal_readme_always_on_ai_stack",
+      "community": 5,
+      "norm_label": "\ud83e\udd16 always-on ai stack"
+    },
+    {
+      "label": "\ud83d\udcc1 Files In This Repo",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "id": "hindal_readme_files_in_this_repo",
+      "community": 5,
+      "norm_label": "\ud83d\udcc1 files in this repo"
+    },
+    {
+      "label": "\ud83d\ude80 Quick Start",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "id": "hindal_readme_quick_start",
+      "community": 5,
+      "norm_label": "\ud83d\ude80 quick start"
+    },
+    {
+      "label": "\ud83d\udd17 Your AI Tool Repos",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "id": "hindal_readme_your_ai_tool_repos",
+      "community": 5,
+      "norm_label": "\ud83d\udd17 your ai tool repos"
+    },
+    {
       "label": "MORNING_BRIEFING.md",
       "file_type": "document",
       "source_file": "MORNING_BRIEFING.md",
@@ -788,56 +815,6 @@
     }
   ],
   "links": [
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme_md",
-      "target": "hindal_readme_hindal_agri_exports_ai_command_center"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hindal_readme_hindal_agri_exports_ai_command_center",
-      "target": "hindal_readme_always_on_ai_stack"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hindal_readme_hindal_agri_exports_ai_command_center",
-      "target": "hindal_readme_files_in_this_repo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hindal_readme_hindal_agri_exports_ai_command_center",
-      "target": "hindal_readme_quick_start"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L40",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hindal_readme_hindal_agri_exports_ai_command_center",
-      "target": "hindal_readme_your_ai_tool_repos"
-    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -1351,6 +1328,56 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_md",
+      "target": "hindal_readme_hindal_agri_exports_ai_command_center"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hindal_readme_hindal_agri_exports_ai_command_center",
+      "target": "hindal_readme_always_on_ai_stack"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hindal_readme_hindal_agri_exports_ai_command_center",
+      "target": "hindal_readme_files_in_this_repo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hindal_readme_hindal_agri_exports_ai_command_center",
+      "target": "hindal_readme_quick_start"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hindal_readme_hindal_agri_exports_ai_command_center",
+      "target": "hindal_readme_your_ai_tool_repos"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "MORNING_BRIEFING.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -1590,5 +1617,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "dfa90076b84ca90b3b2ff148018889f9aad9dcd5"
+  "built_at_commit": "24dc8831f9776f05df3e1e845c45d39596a807e8"
 }
