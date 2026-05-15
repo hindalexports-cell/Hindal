@@ -1,16 +1,16 @@
 # Graph Report - Hindal  (2026-05-15)
 
 ## Corpus Check
-- 10 files · ~3,834 words
+- 12 files · ~4,177 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 90 nodes · 80 edges · 13 communities (11 shown, 2 thin omitted)
+- 100 nodes · 88 edges · 14 communities (12 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `24dc8831`
+- Built from commit: `22ab6307`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -25,6 +25,7 @@
 - [[_COMMUNITY_Community 7|Community 7]]
 - [[_COMMUNITY_Community 8|Community 8]]
 - [[_COMMUNITY_Community 9|Community 9]]
+- [[_COMMUNITY_Community 13|Community 13]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `All tools below are ALWAYS ON.` - 14 edges
@@ -35,17 +36,17 @@
 6. `🥭 Hindal Agri Exports — AI Command Center` - 5 edges
 7. `🌅 Hindal Morning Briefing — Daily Runbook` - 4 edges
 8. `🗄️ Hindal Tool Data Backups` - 4 edges
-9. `Step 1 — Clone your repo` - 2 edges
-10. `Step 2 — Make scripts executable` - 2 edges
+9. `author` - 3 edges
+10. `hooks` - 2 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (13 total, 2 thin omitted)
+## Communities (14 total, 2 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.11
-Nodes (18): 🤖 AI TOOL ROUTING — Which Tool for Which Task, All tools below are ALWAYS ON., code:block1 (Final USD/Kg = (Purchase ₹/Kg), code:block2 (MORNING BRIEFING (run as Ruflo swarm):), code:block3 (1. Caveman FULL mode → ON), code:block4 (□ 1. Activate caveman mode (full)), code:block5 (hindalexports-cell/), 📋 COMPLIANCE DOCUMENTS — Per Shipment (+10 more)
+Cohesion: 0.1
+Nodes (20): 🤖 AI TOOL ROUTING — Which Tool for Which Task, All tools below are ALWAYS ON., code:block1 (Final USD/Kg = (Purchase ₹/Kg), code:block2 (MORNING BRIEFING (run as Ruflo swarm):), code:block3 (1. Caveman FULL mode → ON), code:block4 (□ 1. Activate caveman mode (full)), code:block5 (hindalexports-cell/), 📋 COMPLIANCE DOCUMENTS — Per Shipment (+12 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.1
@@ -75,21 +76,25 @@ Nodes (6): 1. CAVEMAN MODE — Always On, 2. CLAUDE-MEM — Always On, 3. SUPERP
 Cohesion: 0.33
 Nodes (6): 🏢 BUSINESS CONTEXT — Auto-Load Every Session, Incoterms, Key Ports, Markets, Payment Terms, Products
 
+### Community 9 - "Community 9"
+Cohesion: 0.29
+Nodes (6): author, email, name, description, name, version
+
 ## Knowledge Gaps
-- **50 isolated node(s):** `⚡ Hindal Local Setup Guide`, `code:bash (git clone https://github.com/hindalexports-cell/Hindal)`, `code:bash (chmod +x backup.sh restore.sh)`, `code:bash (./restore.sh)`, `code:bash (pip install graphifyy)` (+45 more)
+- **56 isolated node(s):** `PreToolUse`, `name`, `version`, `description`, `name` (+51 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `All tools below are ALWAYS ON.` connect `Community 0` to `Community 9`, `Community 6`, `Community 7`?**
-  _High betweenness centrality (0.116) - this node is a cross-community bridge._
+- **Why does `All tools below are ALWAYS ON.` connect `Community 0` to `Community 6`, `Community 7`?**
+  _High betweenness centrality (0.094) - this node is a cross-community bridge._
 - **Why does `🔴 ALWAYS ACTIVE: Load These First` connect `Community 6` to `Community 0`?**
-  _High betweenness centrality (0.037) - this node is a cross-community bridge._
-- **What connects `⚡ Hindal Local Setup Guide`, `code:bash (git clone https://github.com/hindalexports-cell/Hindal)`, `code:bash (chmod +x backup.sh restore.sh)` to the rest of the system?**
-  _50 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.030) - this node is a cross-community bridge._
+- **What connects `PreToolUse`, `name`, `version` to the rest of the system?**
+  _56 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.11 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.1 - nodes in this community are weakly interconnected._

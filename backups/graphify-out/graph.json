@@ -31,6 +31,96 @@
       "norm_label": "autostart.sh"
     },
     {
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L1",
+      "id": "claude_settings_json",
+      "community": 13,
+      "norm_label": "settings.json"
+    },
+    {
+      "label": "hooks",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "id": "claude_settings_hooks",
+      "community": 13,
+      "norm_label": "hooks"
+    },
+    {
+      "label": "PreToolUse",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "id": "claude_settings_hooks_pretooluse",
+      "community": 13,
+      "norm_label": "pretooluse"
+    },
+    {
+      "label": "plugin.json",
+      "file_type": "code",
+      "source_file": "plugins/frontend-design/.claude-plugin/plugin.json",
+      "source_location": "L1",
+      "id": "plugins_frontend_design_claude_plugin_plugin_json",
+      "community": 9,
+      "norm_label": "plugin.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "plugins/frontend-design/.claude-plugin/plugin.json",
+      "source_location": "L2",
+      "id": "claude_plugin_plugin_name",
+      "community": 9,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "plugins/frontend-design/.claude-plugin/plugin.json",
+      "source_location": "L3",
+      "id": "claude_plugin_plugin_version",
+      "community": 9,
+      "norm_label": "version"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "plugins/frontend-design/.claude-plugin/plugin.json",
+      "source_location": "L4",
+      "id": "claude_plugin_plugin_description",
+      "community": 9,
+      "norm_label": "description"
+    },
+    {
+      "label": "author",
+      "file_type": "code",
+      "source_file": "plugins/frontend-design/.claude-plugin/plugin.json",
+      "source_location": "L5",
+      "id": "claude_plugin_plugin_author",
+      "community": 9,
+      "norm_label": "author"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "plugins/frontend-design/.claude-plugin/plugin.json",
+      "source_location": "L6",
+      "id": "claude_plugin_plugin_author_name",
+      "community": 9,
+      "norm_label": "name"
+    },
+    {
+      "label": "email",
+      "file_type": "code",
+      "source_file": "plugins/frontend-design/.claude-plugin/plugin.json",
+      "source_location": "L7",
+      "id": "claude_plugin_plugin_author_email",
+      "community": 9,
+      "norm_label": "email"
+    },
+    {
       "label": "INSTALL.md",
       "file_type": "document",
       "source_file": "INSTALL.md",
@@ -216,7 +306,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "id": "claude_md",
-      "community": 9,
+      "community": 0,
       "norm_label": "claude.md"
     },
     {
@@ -225,7 +315,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "id": "hindal_claude_hindal_agri_exports_master_ai_configuration",
-      "community": 9,
+      "community": 0,
       "norm_label": "\ud83e\udd6d hindal agri exports \u2014 master ai configuration"
     },
     {
@@ -234,7 +324,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L2",
       "id": "hindal_claude_this_file_loads_automatically_at_the_start_of_every_claude_session",
-      "community": 9,
+      "community": 0,
       "norm_label": "this file loads automatically at the start of every claude session."
     },
     {
@@ -815,6 +905,86 @@
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "claude_settings_json",
+      "target": "claude_settings_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "claude_settings_hooks",
+      "target": "claude_settings_hooks_pretooluse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "plugins/frontend-design/.claude-plugin/plugin.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "plugins_frontend_design_claude_plugin_plugin_json",
+      "target": "claude_plugin_plugin_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "plugins/frontend-design/.claude-plugin/plugin.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "plugins_frontend_design_claude_plugin_plugin_json",
+      "target": "claude_plugin_plugin_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "plugins/frontend-design/.claude-plugin/plugin.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "plugins_frontend_design_claude_plugin_plugin_json",
+      "target": "claude_plugin_plugin_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "plugins/frontend-design/.claude-plugin/plugin.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "plugins_frontend_design_claude_plugin_plugin_json",
+      "target": "claude_plugin_plugin_author",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "plugins/frontend-design/.claude-plugin/plugin.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "claude_plugin_plugin_author",
+      "target": "claude_plugin_plugin_author_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "plugins/frontend-design/.claude-plugin/plugin.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "claude_plugin_plugin_author",
+      "target": "claude_plugin_plugin_author_email",
+      "confidence_score": 1.0
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -1617,5 +1787,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "24dc8831f9776f05df3e1e845c45d39596a807e8"
+  "built_at_commit": "22ab6307384c75d36a4f3c8e23e0209aa77f0f87"
 }
