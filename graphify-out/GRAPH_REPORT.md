@@ -1,16 +1,16 @@
-# Graph Report - Hindal  (2026-06-07)
+# Graph Report - Hindal  (2026-06-24)
 
 ## Corpus Check
 - 12 files · ~4,177 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 175 nodes · 160 edges · 22 communities (20 shown, 2 thin omitted)
+- 92 nodes · 81 edges · 15 communities (10 shown, 5 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6cc2dc06`
+- Built from commit: `5339bec9`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -18,31 +18,28 @@
 - [[_COMMUNITY_Community 0|Community 0]]
 - [[_COMMUNITY_Community 1|Community 1]]
 - [[_COMMUNITY_Community 2|Community 2]]
-- [[_COMMUNITY_Community 3|Community 3]]
 - [[_COMMUNITY_Community 4|Community 4]]
-- [[_COMMUNITY_Community 5|Community 5]]
-- [[_COMMUNITY_Community 6|Community 6]]
-- [[_COMMUNITY_Community 7|Community 7]]
 - [[_COMMUNITY_Community 8|Community 8]]
-- [[_COMMUNITY_Community 9|Community 9]]
-- [[_COMMUNITY_Community 13|Community 13]]
 - [[_COMMUNITY_Community 14|Community 14]]
 - [[_COMMUNITY_Community 15|Community 15]]
 - [[_COMMUNITY_Community 16|Community 16]]
 - [[_COMMUNITY_Community 17|Community 17]]
 - [[_COMMUNITY_Community 18|Community 18]]
+- [[_COMMUNITY_Community 19|Community 19]]
+- [[_COMMUNITY_Community 20|Community 20]]
+- [[_COMMUNITY_Community 21|Community 21]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `All tools below are ALWAYS ON.` - 14 edges
-2. `All tools below are ALWAYS ON.` - 14 edges
-3. `Run this ONCE on any new machine to wire everything up` - 10 edges
-4. `Run this ONCE on any new machine to wire everything up` - 10 edges
-5. `Frontend Design Plugin` - 7 edges
-6. `🔴 ALWAYS ACTIVE: Load These First` - 6 edges
-7. `🏢 BUSINESS CONTEXT — Auto-Load Every Session` - 6 edges
-8. `🔴 ALWAYS ACTIVE: Load These First` - 6 edges
-9. `🏢 BUSINESS CONTEXT — Auto-Load Every Session` - 6 edges
-10. `🥭 Hindal Agri Exports — AI Command Center` - 5 edges
+2. `Run this ONCE on any new machine to wire everything up` - 10 edges
+3. `Frontend Design Plugin` - 7 edges
+4. `🔴 ALWAYS ACTIVE: Load These First` - 6 edges
+5. `🏢 BUSINESS CONTEXT — Auto-Load Every Session` - 6 edges
+6. `🥭 Hindal Agri Exports — AI Command Center` - 6 edges
+7. `🗄️ Hindal Tool Data Backups` - 5 edges
+8. `🌅 Hindal Morning Briefing — Daily Runbook` - 4 edges
+9. `💰 COSTING FORMULA — Always Use This` - 2 edges
+10. `📅 DAILY WORKFLOW — Auto-Run Each Morning` - 2 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -50,51 +47,27 @@
 ## Import Cycles
 - None detected.
 
-## Communities (22 total, 2 thin omitted)
+## Communities (15 total, 5 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.10
-Nodes (20): 🤖 AI TOOL ROUTING — Which Tool for Which Task, All tools below are ALWAYS ON., code:block1 (Final USD/Kg = (Purchase ₹/Kg), code:block2 (MORNING BRIEFING (run as Ruflo swarm):), code:block3 (1. Caveman FULL mode → ON), code:block4 (□ 1. Activate caveman mode (full)), code:block5 (hindalexports-cell/), 📋 COMPLIANCE DOCUMENTS — Per Shipment (+12 more)
-
-### Community 1 - "Community 1"
-Cohesion: 0.10
-Nodes (19): ✅ Auto-backup schedule, code:bash (git clone https://github.com/hindalexports-cell/Hindal), code:bash (chmod +x backup.sh restore.sh), code:bash (./restore.sh), code:bash (pip install graphifyy), code:bash (echo 'export GITHUB_TOKEN=ghp_yourtoken' >> ~/.bashrc), code:bash (crontab -e), code:bash (./backup.sh) (+11 more)
-
-### Community 2 - "Community 2"
-Cohesion: 0.20
-Nodes (8): Authors, code:block1 ("Create a dashboard for a music streaming app"), code:block2 ("Build a daily market rate dashboard for mango, cumin, chick), Frontend Design Plugin, 🥭 Hindal Agri Exports Use Cases, Learn More, Usage, What It Does
-
-### Community 3 - "Community 3"
-Cohesion: 0.25
-Nodes (7): code:block1 (Good morning. Run Hindal morning briefing as Ruflo swarm:), code:block2 (Weekly Hindal review:), code:block3 (Monthly Hindal strategy review:), 🌅 Hindal Morning Briefing — Daily Runbook, 🎯 Monthly Strategy Prompt (1st of every month), 📋 Morning Briefing Prompt (Copy-Paste Daily), 📊 Weekly Review Prompt (Every Friday)
-
-### Community 4 - "Community 4"
-Cohesion: 0.22
-Nodes (7): Auto backup (cron — every 6 hours), code:bash (git clone https://github.com/hindalexports-cell/Hindal), code:bash (./backup.sh), code:bash (crontab -e), 🗄️ Hindal Tool Data Backups, Manual backup, Restore on new machine
-
-### Community 5 - "Community 5"
-Cohesion: 0.33
-Nodes (5): 🤖 Always-On AI Stack, 📁 Files In This Repo, 🥭 Hindal Agri Exports — AI Command Center, 🚀 Quick Start, 🔗 Your AI Tool Repos
-
-### Community 6 - "Community 6"
-Cohesion: 0.33
-Nodes (6): 1. CAVEMAN MODE — Always On, 2. CLAUDE-MEM — Always On, 3. SUPERPOWERS — Always On, 4. RUFLO — Always On, 5. LLM-COUNCIL — Always On for Big Decisions, 🔴 ALWAYS ACTIVE: Load These First
-
-### Community 7 - "Community 7"
 Cohesion: 0.33
 Nodes (6): 🏢 BUSINESS CONTEXT — Auto-Load Every Session, Incoterms, Key Ports, Markets, Payment Terms, Products
 
-### Community 9 - "Community 9"
-Cohesion: 0.36
-Nodes (6): author, email, name, description, name, version
+### Community 2 - "Community 2"
+Cohesion: 0.25
+Nodes (6): Authors, Frontend Design Plugin, 🥭 Hindal Agri Exports Use Cases, Learn More, Usage, What It Does
+
+### Community 4 - "Community 4"
+Cohesion: 0.33
+Nodes (4): Auto backup (cron — every 6 hours), 🗄️ Hindal Tool Data Backups, Manual backup, Restore on new machine
 
 ### Community 14 - "Community 14"
-Cohesion: 0.07
-Nodes (26): 🤖 AI TOOL ROUTING — Which Tool for Which Task, All tools below are ALWAYS ON., 🏢 BUSINESS CONTEXT — Auto-Load Every Session, code:block1 (Final USD/Kg = (Purchase ₹/Kg), code:block2 (MORNING BRIEFING (run as Ruflo swarm):), code:block3 (1. Caveman FULL mode → ON), code:block4 (□ 1. Activate caveman mode (full)), code:block5 (hindalexports-cell/) (+18 more)
+Cohesion: 0.11
+Nodes (18): 🤖 AI TOOL ROUTING — Which Tool for Which Task, All tools below are ALWAYS ON., 📋 COMPLIANCE DOCUMENTS — Per Shipment, 💰 COSTING FORMULA — Always Use This, 📅 DAILY WORKFLOW — Auto-Run Each Morning, graphify, 🚨 IRAN RISK ALERTS — Always Flag These, 💬 LANGUAGE RULES (+10 more)
 
 ### Community 15 - "Community 15"
-Cohesion: 0.10
-Nodes (19): ✅ Auto-backup schedule, code:bash (git clone https://github.com/hindalexports-cell/Hindal), code:bash (chmod +x backup.sh restore.sh), code:bash (./restore.sh), code:bash (pip install graphifyy), code:bash (echo 'export GITHUB_TOKEN=ghp_yourtoken' >> ~/.bashrc), code:bash (crontab -e), code:bash (./backup.sh) (+11 more)
+Cohesion: 0.11
+Nodes (18): code:bash (git clone https://github.com/hindalexports-cell/Hindal), code:bash (chmod +x backup.sh restore.sh), code:bash (./restore.sh), code:bash (pip install graphifyy), code:bash (echo 'export GITHUB_TOKEN=ghp_yourtoken' >> ~/.bashrc), code:bash (crontab -e), code:bash (./backup.sh), ✅ Auto-backup schedule (+10 more)
 
 ### Community 16 - "Community 16"
 Cohesion: 0.25
@@ -105,28 +78,26 @@ Cohesion: 0.33
 Nodes (6): 1. CAVEMAN MODE — Always On, 2. CLAUDE-MEM — Always On, 3. SUPERPOWERS — Always On, 4. RUFLO — Always On, 5. LLM-COUNCIL — Always On for Big Decisions, 🔴 ALWAYS ACTIVE: Load These First
 
 ### Community 18 - "Community 18"
-Cohesion: 0.33
+Cohesion: 0.29
 Nodes (5): 🤖 Always-On AI Stack, 📁 Files In This Repo, 🥭 Hindal Agri Exports — AI Command Center, 🚀 Quick Start, 🔗 Your AI Tool Repos
 
 ## Knowledge Gaps
-- **91 isolated node(s):** `PreToolUse`, `name`, `email`, `🥭 Hindal Agri Exports — Master AI Configuration`, `This file loads automatically at the start of EVERY Claude session.` (+86 more)
+- **51 isolated node(s):** `autostart.sh script`, `backup.sh script`, `restore.sh script`, `🥭 Hindal Agri Exports — Master AI Configuration`, `This file loads automatically at the start of EVERY Claude session.` (+46 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `All tools below are ALWAYS ON.` connect `Community 14` to `Community 17`?**
-  _High betweenness centrality (0.030) - this node is a cross-community bridge._
-- **Why does `All tools below are ALWAYS ON.` connect `Community 0` to `Community 6`, `Community 7`?**
-  _High betweenness centrality (0.030) - this node is a cross-community bridge._
-- **What connects `PreToolUse`, `name`, `email` to the rest of the system?**
-  _91 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._
-- **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
+- **Why does `All tools below are ALWAYS ON.` connect `Community 14` to `Community 0`, `Community 1`, `Community 17`?**
+  _High betweenness centrality (0.111) - this node is a cross-community bridge._
+- **Why does `🔴 ALWAYS ACTIVE: Load These First` connect `Community 17` to `Community 14`?**
+  _High betweenness centrality (0.035) - this node is a cross-community bridge._
+- **Why does `🏢 BUSINESS CONTEXT — Auto-Load Every Session` connect `Community 0` to `Community 14`?**
+  _High betweenness centrality (0.035) - this node is a cross-community bridge._
+- **What connects `autostart.sh script`, `backup.sh script`, `restore.sh script` to the rest of the system?**
+  _51 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 14` be split into smaller, more focused modules?**
-  _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._
 - **Should `Community 15` be split into smaller, more focused modules?**
-  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._
