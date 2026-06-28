@@ -27,7 +27,7 @@
         "kind": "bash_entrypoint"
       },
       "_origin": "ast",
-      "id": "home_runner_work_hindal_hindal_autostart_sh__entry",
+      "id": "autostart_sh__entry",
       "community": 19,
       "norm_label": "autostart.sh script"
     },
@@ -55,7 +55,7 @@
         "kind": "bash_entrypoint"
       },
       "_origin": "ast",
-      "id": "home_runner_work_hindal_hindal_backup_sh__entry",
+      "id": "backup_sh__entry",
       "community": 20,
       "norm_label": "backup.sh script"
     },
@@ -83,7 +83,7 @@
         "kind": "bash_entrypoint"
       },
       "_origin": "ast",
-      "id": "home_runner_work_hindal_hindal_restore_sh__entry",
+      "id": "restore_sh__entry",
       "community": 21,
       "norm_label": "restore.sh script"
     },
@@ -94,7 +94,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "claude",
-      "community": 1,
+      "community": 14,
       "norm_label": "claude.md"
     },
     {
@@ -104,7 +104,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "claude_hindal_agri_exports_master_ai_configuration",
-      "community": 1,
+      "community": 14,
       "norm_label": "\ud83e\udd6d hindal agri exports \u2014 master ai configuration"
     },
     {
@@ -114,7 +114,7 @@
       "source_location": "L2",
       "_origin": "ast",
       "id": "claude_this_file_loads_automatically_at_the_start_of_every_claude_session",
-      "community": 1,
+      "community": 14,
       "norm_label": "this file loads automatically at the start of every claude session."
     },
     {
@@ -314,7 +314,7 @@
       "source_location": "L163",
       "_origin": "ast",
       "id": "claude_tool_status_dashboard_always_on_stack",
-      "community": 14,
+      "community": 3,
       "norm_label": "\ud83d\udee0\ufe0f tool status dashboard \u2014 always on stack"
     },
     {
@@ -324,7 +324,7 @@
       "source_location": "L177",
       "_origin": "ast",
       "id": "claude_session_start_protocol_auto_run_every_time",
-      "community": 14,
+      "community": 3,
       "norm_label": "\ud83d\udd01 session start protocol (auto-run, every time)"
     },
     {
@@ -653,8 +653,8 @@
       "source_file": "plugins/frontend-design/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "frontend_design_readme",
-      "community": 2,
+      "id": "plugins_frontend_design_readme",
+      "community": 1,
       "norm_label": "readme.md"
     },
     {
@@ -663,8 +663,8 @@
       "source_file": "plugins/frontend-design/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "frontend_design_readme_frontend_design_plugin",
-      "community": 2,
+      "id": "plugins_frontend_design_readme_frontend_design_plugin",
+      "community": 1,
       "norm_label": "frontend design plugin"
     },
     {
@@ -673,8 +673,8 @@
       "source_file": "plugins/frontend-design/README.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "frontend_design_readme_what_it_does",
-      "community": 2,
+      "id": "plugins_frontend_design_readme_what_it_does",
+      "community": 1,
       "norm_label": "what it does"
     },
     {
@@ -683,8 +683,8 @@
       "source_file": "plugins/frontend-design/README.md",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "frontend_design_readme_usage",
-      "community": 2,
+      "id": "plugins_frontend_design_readme_usage",
+      "community": 1,
       "norm_label": "usage"
     },
     {
@@ -693,8 +693,8 @@
       "source_file": "plugins/frontend-design/README.md",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "frontend_design_readme_learn_more",
-      "community": 2,
+      "id": "plugins_frontend_design_readme_learn_more",
+      "community": 1,
       "norm_label": "learn more"
     },
     {
@@ -703,8 +703,8 @@
       "source_file": "plugins/frontend-design/README.md",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "frontend_design_readme_authors",
-      "community": 2,
+      "id": "plugins_frontend_design_readme_authors",
+      "community": 1,
       "norm_label": "authors"
     },
     {
@@ -713,8 +713,8 @@
       "source_file": "plugins/frontend-design/README.md",
       "source_location": "L35",
       "_origin": "ast",
-      "id": "frontend_design_readme_hindal_agri_exports_use_cases",
-      "community": 2,
+      "id": "plugins_frontend_design_readme_hindal_agri_exports_use_cases",
+      "community": 1,
       "norm_label": "\ud83e\udd6d hindal agri exports use cases"
     },
     {
@@ -723,8 +723,8 @@
       "source_file": "plugins/frontend-design/skills/frontend-design/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "frontend_design_skill",
-      "community": 8,
+      "id": "plugins_frontend_design_skills_frontend_design_skill",
+      "community": 5,
       "norm_label": "skill.md"
     },
     {
@@ -733,8 +733,8 @@
       "source_file": "plugins/frontend-design/skills/frontend-design/SKILL.md",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "frontend_design_skill_design_thinking",
-      "community": 8,
+      "id": "plugins_frontend_design_skills_frontend_design_skill_design_thinking",
+      "community": 5,
       "norm_label": "design thinking"
     },
     {
@@ -743,8 +743,8 @@
       "source_file": "plugins/frontend-design/skills/frontend-design/SKILL.md",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "frontend_design_skill_frontend_aesthetics_guidelines",
-      "community": 8,
+      "id": "plugins_frontend_design_skills_frontend_design_skill_frontend_aesthetics_guidelines",
+      "community": 5,
       "norm_label": "frontend aesthetics guidelines"
     },
     {
@@ -851,7 +851,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L178",
-      "community": 14,
+      "community": 3,
       "norm_label": "code:block3 (1. caveman full mode \u2192 on)",
       "id": "hindal_claude_codeblock_3"
     },
@@ -936,7 +936,7 @@
       "source_location": "L1",
       "weight": 1.0,
       "source": "autostart",
-      "target": "home_runner_work_hindal_hindal_autostart_sh__entry",
+      "target": "autostart_sh__entry",
       "confidence_score": 1.0
     },
     {
@@ -946,7 +946,7 @@
       "source_location": "L1",
       "weight": 1.0,
       "source": "backup",
-      "target": "home_runner_work_hindal_hindal_backup_sh__entry",
+      "target": "backup_sh__entry",
       "confidence_score": 1.0
     },
     {
@@ -956,7 +956,7 @@
       "source_location": "L1",
       "weight": 1.0,
       "source": "restore",
-      "target": "home_runner_work_hindal_hindal_restore_sh__entry",
+      "target": "restore_sh__entry",
       "confidence_score": 1.0
     },
     {
@@ -1655,9 +1655,9 @@
       "source_file": "plugins/frontend-design/README.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "frontend_design_readme",
-      "target": "frontend_design_readme_frontend_design_plugin"
+      "source": "plugins_frontend_design_readme",
+      "target": "plugins_frontend_design_readme_frontend_design_plugin",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1665,9 +1665,9 @@
       "source_file": "plugins/frontend-design/README.md",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "frontend_design_readme_frontend_design_plugin",
-      "target": "frontend_design_readme_authors"
+      "source": "plugins_frontend_design_readme_frontend_design_plugin",
+      "target": "plugins_frontend_design_readme_authors",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1675,9 +1675,9 @@
       "source_file": "plugins/frontend-design/README.md",
       "source_location": "L35",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "frontend_design_readme_frontend_design_plugin",
-      "target": "frontend_design_readme_hindal_agri_exports_use_cases"
+      "source": "plugins_frontend_design_readme_frontend_design_plugin",
+      "target": "plugins_frontend_design_readme_hindal_agri_exports_use_cases",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1685,9 +1685,9 @@
       "source_file": "plugins/frontend-design/README.md",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "frontend_design_readme_frontend_design_plugin",
-      "target": "frontend_design_readme_learn_more"
+      "source": "plugins_frontend_design_readme_frontend_design_plugin",
+      "target": "plugins_frontend_design_readme_learn_more",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1695,9 +1695,9 @@
       "source_file": "plugins/frontend-design/README.md",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "frontend_design_readme_frontend_design_plugin",
-      "target": "frontend_design_readme_usage"
+      "source": "plugins_frontend_design_readme_frontend_design_plugin",
+      "target": "plugins_frontend_design_readme_usage",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1705,19 +1705,9 @@
       "source_file": "plugins/frontend-design/README.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "frontend_design_readme_frontend_design_plugin",
-      "target": "frontend_design_readme_what_it_does"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "plugins/frontend-design/README.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "plugins_frontend_design_readme_md",
-      "target": "frontend_design_readme_frontend_design_plugin"
+      "source": "plugins_frontend_design_readme_frontend_design_plugin",
+      "target": "plugins_frontend_design_readme_what_it_does",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1725,9 +1715,9 @@
       "source_file": "plugins/frontend-design/skills/frontend-design/SKILL.md",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "frontend_design_skill",
-      "target": "frontend_design_skill_design_thinking"
+      "source": "plugins_frontend_design_skills_frontend_design_skill",
+      "target": "plugins_frontend_design_skills_frontend_design_skill_design_thinking",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1735,11 +1725,11 @@
       "source_file": "plugins/frontend-design/skills/frontend-design/SKILL.md",
       "source_location": "L27",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "frontend_design_skill",
-      "target": "frontend_design_skill_frontend_aesthetics_guidelines"
+      "source": "plugins_frontend_design_skills_frontend_design_skill",
+      "target": "plugins_frontend_design_skills_frontend_design_skill_frontend_aesthetics_guidelines",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "5339bec90309e0cad9c841bb36d8f72b82b43d2a"
+  "built_at_commit": "1c38ce42590cfc9405914e280b4ff19a0b5f8e70"
 }
