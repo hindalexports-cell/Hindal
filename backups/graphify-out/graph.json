@@ -94,699 +94,6 @@
       "norm_label": "restore.sh script"
     },
     {
-      "label": "CLAUDE.md",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "claude",
-      "community": 6,
-      "community_name": "Community 6",
-      "norm_label": "claude.md"
-    },
-    {
-      "label": "\ud83e\udd6d Hindal Agri Exports \u2014 Master AI Configuration",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "claude_hindal_agri_exports_master_ai_configuration",
-      "community": 6,
-      "community_name": "Community 6",
-      "norm_label": "\ud83e\udd6d hindal agri exports \u2014 master ai configuration"
-    },
-    {
-      "label": "This file loads automatically at the start of EVERY Claude session.",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L2",
-      "_origin": "ast",
-      "id": "claude_this_file_loads_automatically_at_the_start_of_every_claude_session",
-      "community": 6,
-      "community_name": "Community 6",
-      "norm_label": "this file loads automatically at the start of every claude session."
-    },
-    {
-      "label": "All tools below are ALWAYS ON.",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "claude_all_tools_below_are_always_on",
-      "community": 14,
-      "community_name": "Community 14",
-      "norm_label": "all tools below are always on."
-    },
-    {
-      "label": "\ud83d\udd34 ALWAYS ACTIVE: Load These First",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "claude_always_active_load_these_first",
-      "community": 17,
-      "community_name": "Community 17",
-      "norm_label": "\ud83d\udd34 always active: load these first"
-    },
-    {
-      "label": "1. CAVEMAN MODE \u2014 Always On",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L9",
-      "_origin": "ast",
-      "id": "claude_1_caveman_mode_always_on",
-      "community": 17,
-      "community_name": "Community 17",
-      "norm_label": "1. caveman mode \u2014 always on"
-    },
-    {
-      "label": "2. CLAUDE-MEM \u2014 Always On",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L16",
-      "_origin": "ast",
-      "id": "claude_2_claude_mem_always_on",
-      "community": 17,
-      "community_name": "Community 17",
-      "norm_label": "2. claude-mem \u2014 always on"
-    },
-    {
-      "label": "3. SUPERPOWERS \u2014 Always On",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L25",
-      "_origin": "ast",
-      "id": "claude_3_superpowers_always_on",
-      "community": 17,
-      "community_name": "Community 17",
-      "norm_label": "3. superpowers \u2014 always on"
-    },
-    {
-      "label": "4. RUFLO \u2014 Always On",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L32",
-      "_origin": "ast",
-      "id": "claude_4_ruflo_always_on",
-      "community": 17,
-      "community_name": "Community 17",
-      "norm_label": "4. ruflo \u2014 always on"
-    },
-    {
-      "label": "5. LLM-COUNCIL \u2014 Always On for Big Decisions",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L38",
-      "_origin": "ast",
-      "id": "claude_5_llm_council_always_on_for_big_decisions",
-      "community": 17,
-      "community_name": "Community 17",
-      "norm_label": "5. llm-council \u2014 always on for big decisions"
-    },
-    {
-      "label": "\ud83c\udfe2 BUSINESS CONTEXT \u2014 Auto-Load Every Session",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L47",
-      "_origin": "ast",
-      "id": "claude_business_context_auto_load_every_session",
-      "community": 0,
-      "community_name": "Community 0",
-      "norm_label": "\ud83c\udfe2 business context \u2014 auto-load every session"
-    },
-    {
-      "label": "Products",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L55",
-      "_origin": "ast",
-      "id": "claude_products",
-      "community": 0,
-      "community_name": "Community 0",
-      "norm_label": "products"
-    },
-    {
-      "label": "Markets",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L61",
-      "_origin": "ast",
-      "id": "claude_markets",
-      "community": 0,
-      "community_name": "Community 0",
-      "norm_label": "markets"
-    },
-    {
-      "label": "Key Ports",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L65",
-      "_origin": "ast",
-      "id": "claude_key_ports",
-      "community": 0,
-      "community_name": "Community 0",
-      "norm_label": "key ports"
-    },
-    {
-      "label": "Payment Terms",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L69",
-      "_origin": "ast",
-      "id": "claude_payment_terms",
-      "community": 0,
-      "community_name": "Community 0",
-      "norm_label": "payment terms"
-    },
-    {
-      "label": "Incoterms",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L74",
-      "_origin": "ast",
-      "id": "claude_incoterms",
-      "community": 0,
-      "community_name": "Community 0",
-      "norm_label": "incoterms"
-    },
-    {
-      "label": "\ud83d\udcb0 COSTING FORMULA \u2014 Always Use This",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L81",
-      "_origin": "ast",
-      "id": "claude_costing_formula_always_use_this",
-      "community": 14,
-      "community_name": "Community 14",
-      "norm_label": "\ud83d\udcb0 costing formula \u2014 always use this"
-    },
-    {
-      "label": "\ud83d\udccb COMPLIANCE DOCUMENTS \u2014 Per Shipment",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L106",
-      "_origin": "ast",
-      "id": "claude_compliance_documents_per_shipment",
-      "community": 14,
-      "community_name": "Community 14",
-      "norm_label": "\ud83d\udccb compliance documents \u2014 per shipment"
-    },
-    {
-      "label": "\ud83d\udcc5 DAILY WORKFLOW \u2014 Auto-Run Each Morning",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L118",
-      "_origin": "ast",
-      "id": "claude_daily_workflow_auto_run_each_morning",
-      "community": 14,
-      "community_name": "Community 14",
-      "norm_label": "\ud83d\udcc5 daily workflow \u2014 auto-run each morning"
-    },
-    {
-      "label": "\ud83d\udea8 IRAN RISK ALERTS \u2014 Always Flag These",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L133",
-      "_origin": "ast",
-      "id": "claude_iran_risk_alerts_always_flag_these",
-      "community": 14,
-      "community_name": "Community 14",
-      "norm_label": "\ud83d\udea8 iran risk alerts \u2014 always flag these"
-    },
-    {
-      "label": "\ud83c\udf0d TARGET MARKET RULES",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L142",
-      "_origin": "ast",
-      "id": "claude_target_market_rules",
-      "community": 14,
-      "community_name": "Community 14",
-      "norm_label": "\ud83c\udf0d target market rules"
-    },
-    {
-      "label": "\ud83d\udcac LANGUAGE RULES",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L153",
-      "_origin": "ast",
-      "id": "claude_language_rules",
-      "community": 14,
-      "community_name": "Community 14",
-      "norm_label": "\ud83d\udcac language rules"
-    },
-    {
-      "label": "\ud83d\udee0\ufe0f TOOL STATUS DASHBOARD \u2014 Always On Stack",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L163",
-      "_origin": "ast",
-      "id": "claude_tool_status_dashboard_always_on_stack",
-      "community": 14,
-      "community_name": "Community 14",
-      "norm_label": "\ud83d\udee0\ufe0f tool status dashboard \u2014 always on stack"
-    },
-    {
-      "label": "\ud83d\udd01 Session Start Protocol (auto-run, every time)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L177",
-      "_origin": "ast",
-      "id": "claude_session_start_protocol_auto_run_every_time",
-      "community": 14,
-      "community_name": "Community 14",
-      "norm_label": "\ud83d\udd01 session start protocol (auto-run, every time)"
-    },
-    {
-      "label": "\ud83e\udd16 AI TOOL ROUTING \u2014 Which Tool for Which Task",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L193",
-      "_origin": "ast",
-      "id": "claude_ai_tool_routing_which_tool_for_which_task",
-      "community": 14,
-      "community_name": "Community 14",
-      "norm_label": "\ud83e\udd16 ai tool routing \u2014 which tool for which task"
-    },
-    {
-      "label": "\u26a1 SESSION START CHECKLIST (auto-run every time)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L210",
-      "_origin": "ast",
-      "id": "claude_session_start_checklist_auto_run_every_time",
-      "community": 14,
-      "community_name": "Community 14",
-      "norm_label": "\u26a1 session start checklist (auto-run every time)"
-    },
-    {
-      "label": "\ud83d\udcc1 REPO STRUCTURE",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L222",
-      "_origin": "ast",
-      "id": "claude_repo_structure",
-      "community": 14,
-      "community_name": "Community 14",
-      "norm_label": "\ud83d\udcc1 repo structure"
-    },
-    {
-      "label": "graphify",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L239",
-      "_origin": "ast",
-      "id": "claude_graphify",
-      "community": 14,
-      "community_name": "Community 14",
-      "norm_label": "graphify"
-    },
-    {
-      "label": "INSTALL.md",
-      "file_type": "document",
-      "source_file": "INSTALL.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "install",
-      "community": 15,
-      "community_name": "Community 15",
-      "norm_label": "install.md"
-    },
-    {
-      "label": "\u26a1 Hindal Local Setup Guide",
-      "file_type": "document",
-      "source_file": "INSTALL.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "install_hindal_local_setup_guide",
-      "community": 15,
-      "community_name": "Community 15",
-      "norm_label": "\u26a1 hindal local setup guide"
-    },
-    {
-      "label": "Run this ONCE on any new machine to wire everything up",
-      "file_type": "document",
-      "source_file": "INSTALL.md",
-      "source_location": "L2",
-      "_origin": "ast",
-      "id": "install_run_this_once_on_any_new_machine_to_wire_everything_up",
-      "community": 15,
-      "community_name": "Community 15",
-      "norm_label": "run this once on any new machine to wire everything up"
-    },
-    {
-      "label": "Step 1 \u2014 Clone your repo",
-      "file_type": "document",
-      "source_file": "INSTALL.md",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "install_step_1_clone_your_repo",
-      "community": 15,
-      "community_name": "Community 15",
-      "norm_label": "step 1 \u2014 clone your repo"
-    },
-    {
-      "label": "Step 2 \u2014 Make scripts executable",
-      "file_type": "document",
-      "source_file": "INSTALL.md",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "install_step_2_make_scripts_executable",
-      "community": 15,
-      "community_name": "Community 15",
-      "norm_label": "step 2 \u2014 make scripts executable"
-    },
-    {
-      "label": "Step 3 \u2014 Restore all tool data from GitHub",
-      "file_type": "document",
-      "source_file": "INSTALL.md",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "install_step_3_restore_all_tool_data_from_github",
-      "community": 15,
-      "community_name": "Community 15",
-      "norm_label": "step 3 \u2014 restore all tool data from github"
-    },
-    {
-      "label": "Step 4 \u2014 Install Graphify",
-      "file_type": "document",
-      "source_file": "INSTALL.md",
-      "source_location": "L23",
-      "_origin": "ast",
-      "id": "install_step_4_install_graphify",
-      "community": 15,
-      "community_name": "Community 15",
-      "norm_label": "step 4 \u2014 install graphify"
-    },
-    {
-      "label": "Step 5 \u2014 Set GitHub token",
-      "file_type": "document",
-      "source_file": "INSTALL.md",
-      "source_location": "L30",
-      "_origin": "ast",
-      "id": "install_step_5_set_github_token",
-      "community": 15,
-      "community_name": "Community 15",
-      "norm_label": "step 5 \u2014 set github token"
-    },
-    {
-      "label": "Step 6 \u2014 Set up auto cron (every 6 hours)",
-      "file_type": "document",
-      "source_file": "INSTALL.md",
-      "source_location": "L36",
-      "_origin": "ast",
-      "id": "install_step_6_set_up_auto_cron_every_6_hours",
-      "community": 15,
-      "community_name": "Community 15",
-      "norm_label": "step 6 \u2014 set up auto cron (every 6 hours)"
-    },
-    {
-      "label": "Step 7 \u2014 Run first backup",
-      "file_type": "document",
-      "source_file": "INSTALL.md",
-      "source_location": "L43",
-      "_origin": "ast",
-      "id": "install_step_7_run_first_backup",
-      "community": 15,
-      "community_name": "Community 15",
-      "norm_label": "step 7 \u2014 run first backup"
-    },
-    {
-      "label": "\u2705 Auto-backup schedule",
-      "file_type": "document",
-      "source_file": "INSTALL.md",
-      "source_location": "L48",
-      "_origin": "ast",
-      "id": "install_auto_backup_schedule",
-      "community": 15,
-      "community_name": "Community 15",
-      "norm_label": "\u2705 auto-backup schedule"
-    },
-    {
-      "label": "\ud83d\udd01 New machine? Just run:",
-      "file_type": "document",
-      "source_file": "INSTALL.md",
-      "source_location": "L56",
-      "_origin": "ast",
-      "id": "install_new_machine_just_run",
-      "community": 15,
-      "community_name": "Community 15",
-      "norm_label": "\ud83d\udd01 new machine? just run:"
-    },
-    {
-      "label": "MORNING_BRIEFING.md",
-      "file_type": "document",
-      "source_file": "MORNING_BRIEFING.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "morning_briefing",
-      "community": 16,
-      "community_name": "Community 16",
-      "norm_label": "morning_briefing.md"
-    },
-    {
-      "label": "\ud83c\udf05 Hindal Morning Briefing \u2014 Daily Runbook",
-      "file_type": "document",
-      "source_file": "MORNING_BRIEFING.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "morning_briefing_hindal_morning_briefing_daily_runbook",
-      "community": 16,
-      "community_name": "Community 16",
-      "norm_label": "\ud83c\udf05 hindal morning briefing \u2014 daily runbook"
-    },
-    {
-      "label": "\ud83d\udccb Morning Briefing Prompt (Copy-Paste Daily)",
-      "file_type": "document",
-      "source_file": "MORNING_BRIEFING.md",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "morning_briefing_morning_briefing_prompt_copy_paste_daily",
-      "community": 16,
-      "community_name": "Community 16",
-      "norm_label": "\ud83d\udccb morning briefing prompt (copy-paste daily)"
-    },
-    {
-      "label": "\ud83d\udcca Weekly Review Prompt (Every Friday)",
-      "file_type": "document",
-      "source_file": "MORNING_BRIEFING.md",
-      "source_location": "L41",
-      "_origin": "ast",
-      "id": "morning_briefing_weekly_review_prompt_every_friday",
-      "community": 16,
-      "community_name": "Community 16",
-      "norm_label": "\ud83d\udcca weekly review prompt (every friday)"
-    },
-    {
-      "label": "\ud83c\udfaf Monthly Strategy Prompt (1st of every month)",
-      "file_type": "document",
-      "source_file": "MORNING_BRIEFING.md",
-      "source_location": "L57",
-      "_origin": "ast",
-      "id": "morning_briefing_monthly_strategy_prompt_1st_of_every_month",
-      "community": 16,
-      "community_name": "Community 16",
-      "norm_label": "\ud83c\udfaf monthly strategy prompt (1st of every month)"
-    },
-    {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "readme",
-      "community": 18,
-      "community_name": "Community 18",
-      "norm_label": "readme.md"
-    },
-    {
-      "label": "\ud83e\udd6d Hindal Agri Exports \u2014 AI Command Center",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "readme_hindal_agri_exports_ai_command_center",
-      "community": 18,
-      "community_name": "Community 18",
-      "norm_label": "\ud83e\udd6d hindal agri exports \u2014 ai command center"
-    },
-    {
-      "label": "\ud83e\udd16 Always-On AI Stack",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "readme_always_on_ai_stack",
-      "community": 18,
-      "community_name": "Community 18",
-      "norm_label": "\ud83e\udd16 always-on ai stack"
-    },
-    {
-      "label": "\ud83d\udcc1 Files In This Repo",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L20",
-      "_origin": "ast",
-      "id": "readme_files_in_this_repo",
-      "community": 18,
-      "community_name": "Community 18",
-      "norm_label": "\ud83d\udcc1 files in this repo"
-    },
-    {
-      "label": "\ud83d\ude80 Quick Start",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L31",
-      "_origin": "ast",
-      "id": "readme_quick_start",
-      "community": 18,
-      "community_name": "Community 18",
-      "norm_label": "\ud83d\ude80 quick start"
-    },
-    {
-      "label": "\ud83d\udd17 Your AI Tool Repos",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L40",
-      "_origin": "ast",
-      "id": "readme_your_ai_tool_repos",
-      "community": 18,
-      "community_name": "Community 18",
-      "norm_label": "\ud83d\udd17 your ai tool repos"
-    },
-    {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "backups/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "backups_readme",
-      "community": 4,
-      "community_name": "Community 4",
-      "norm_label": "readme.md"
-    },
-    {
-      "label": "\ud83d\uddc4\ufe0f Hindal Tool Data Backups",
-      "file_type": "document",
-      "source_file": "backups/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "backups_readme_hindal_tool_data_backups",
-      "community": 4,
-      "community_name": "Community 4",
-      "norm_label": "\ud83d\uddc4\ufe0f hindal tool data backups"
-    },
-    {
-      "label": "Restore on new machine",
-      "file_type": "document",
-      "source_file": "backups/README.md",
-      "source_location": "L13",
-      "_origin": "ast",
-      "id": "backups_readme_restore_on_new_machine",
-      "community": 4,
-      "community_name": "Community 4",
-      "norm_label": "restore on new machine"
-    },
-    {
-      "label": "Manual backup",
-      "file_type": "document",
-      "source_file": "backups/README.md",
-      "source_location": "L20",
-      "_origin": "ast",
-      "id": "backups_readme_manual_backup",
-      "community": 4,
-      "community_name": "Community 4",
-      "norm_label": "manual backup"
-    },
-    {
-      "label": "Auto backup (cron \u2014 every 6 hours)",
-      "file_type": "document",
-      "source_file": "backups/README.md",
-      "source_location": "L25",
-      "_origin": "ast",
-      "id": "backups_readme_auto_backup_cron_every_6_hours",
-      "community": 4,
-      "community_name": "Community 4",
-      "norm_label": "auto backup (cron \u2014 every 6 hours)"
-    },
-    {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "plugins/frontend-design/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "plugins_frontend_design_readme",
-      "community": 1,
-      "community_name": "Community 1",
-      "norm_label": "readme.md"
-    },
-    {
-      "label": "Frontend Design Plugin",
-      "file_type": "document",
-      "source_file": "plugins/frontend-design/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "plugins_frontend_design_readme_frontend_design_plugin",
-      "community": 1,
-      "community_name": "Community 1",
-      "norm_label": "frontend design plugin"
-    },
-    {
-      "label": "What It Does",
-      "file_type": "document",
-      "source_file": "plugins/frontend-design/README.md",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "plugins_frontend_design_readme_what_it_does",
-      "community": 1,
-      "community_name": "Community 1",
-      "norm_label": "what it does"
-    },
-    {
-      "label": "Usage",
-      "file_type": "document",
-      "source_file": "plugins/frontend-design/README.md",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "plugins_frontend_design_readme_usage",
-      "community": 1,
-      "community_name": "Community 1",
-      "norm_label": "usage"
-    },
-    {
-      "label": "Learn More",
-      "file_type": "document",
-      "source_file": "plugins/frontend-design/README.md",
-      "source_location": "L24",
-      "_origin": "ast",
-      "id": "plugins_frontend_design_readme_learn_more",
-      "community": 1,
-      "community_name": "Community 1",
-      "norm_label": "learn more"
-    },
-    {
-      "label": "Authors",
-      "file_type": "document",
-      "source_file": "plugins/frontend-design/README.md",
-      "source_location": "L28",
-      "_origin": "ast",
-      "id": "plugins_frontend_design_readme_authors",
-      "community": 1,
-      "community_name": "Community 1",
-      "norm_label": "authors"
-    },
-    {
-      "label": "\ud83e\udd6d Hindal Agri Exports Use Cases",
-      "file_type": "document",
-      "source_file": "plugins/frontend-design/README.md",
-      "source_location": "L35",
-      "_origin": "ast",
-      "id": "plugins_frontend_design_readme_hindal_agri_exports_use_cases",
-      "community": 1,
-      "community_name": "Community 1",
-      "norm_label": "\ud83e\udd6d hindal agri exports use cases"
-    },
-    {
       "label": "SKILL.md",
       "file_type": "document",
       "source_file": "plugins/frontend-design/skills/frontend-design/SKILL.md",
@@ -826,8 +133,8 @@
       "source_location": "L1",
       "community": 13,
       "norm_label": "settings.json",
-      "id": "claude_settings_json",
-      "community_name": "Community 13"
+      "community_name": "Community 13",
+      "id": "claude_settings_json"
     },
     {
       "label": "plugin.json",
@@ -836,8 +143,8 @@
       "source_location": "L1",
       "community": 9,
       "norm_label": "plugin.json",
-      "id": "plugins_frontend_design_claude_plugin_plugin_json",
-      "community_name": "Community 9"
+      "community_name": "Community 9",
+      "id": "plugins_frontend_design_claude_plugin_plugin_json"
     },
     {
       "label": "code:bash (git clone https://github.com/hindalexports-cell/Hindal)",
@@ -846,8 +153,8 @@
       "source_location": "L7",
       "community": 22,
       "norm_label": "code:bash (git clone https://github.com/hindalexports-cell/hindal)",
-      "id": "hindal_install_codeblock_1",
-      "community_name": "Community 22"
+      "community_name": "Community 22",
+      "id": "hindal_install_codeblock_1"
     },
     {
       "label": "code:bash (chmod +x backup.sh restore.sh)",
@@ -856,8 +163,8 @@
       "source_location": "L13",
       "community": 23,
       "norm_label": "code:bash (chmod +x backup.sh restore.sh)",
-      "id": "hindal_install_codeblock_2",
-      "community_name": "Community 23"
+      "community_name": "Community 23",
+      "id": "hindal_install_codeblock_2"
     },
     {
       "label": "code:bash (./restore.sh)",
@@ -866,8 +173,8 @@
       "source_location": "L18",
       "community": 24,
       "norm_label": "code:bash (./restore.sh)",
-      "id": "hindal_install_codeblock_3",
-      "community_name": "Community 24"
+      "community_name": "Community 24",
+      "id": "hindal_install_codeblock_3"
     },
     {
       "label": "code:bash (pip install graphifyy)",
@@ -876,8 +183,8 @@
       "source_location": "L24",
       "community": 25,
       "norm_label": "code:bash (pip install graphifyy)",
-      "id": "hindal_install_codeblock_4",
-      "community_name": "Community 25"
+      "community_name": "Community 25",
+      "id": "hindal_install_codeblock_4"
     },
     {
       "label": "code:bash (echo 'export GITHUB_TOKEN=ghp_yourtoken' >> ~/.bashrc)",
@@ -886,8 +193,8 @@
       "source_location": "L31",
       "community": 26,
       "norm_label": "code:bash (echo 'export github_token=ghp_yourtoken' >> ~/.bashrc)",
-      "id": "hindal_install_codeblock_5",
-      "community_name": "Community 26"
+      "community_name": "Community 26",
+      "id": "hindal_install_codeblock_5"
     },
     {
       "label": "code:bash (crontab -e)",
@@ -896,8 +203,8 @@
       "source_location": "L37",
       "community": 27,
       "norm_label": "code:bash (crontab -e)",
-      "id": "hindal_install_codeblock_6",
-      "community_name": "Community 27"
+      "community_name": "Community 27",
+      "id": "hindal_install_codeblock_6"
     },
     {
       "label": "code:bash (./backup.sh)",
@@ -906,8 +213,8 @@
       "source_location": "L44",
       "community": 28,
       "norm_label": "code:bash (./backup.sh)",
-      "id": "hindal_install_codeblock_7",
-      "community_name": "Community 28"
+      "community_name": "Community 28",
+      "id": "hindal_install_codeblock_7"
     },
     {
       "label": "code:block1 (Final USD/Kg = (Purchase \u20b9/Kg)",
@@ -916,8 +223,8 @@
       "source_location": "L83",
       "community": 8,
       "norm_label": "code:block1 (final usd/kg = (purchase \u20b9/kg)",
-      "id": "hindal_claude_codeblock_1",
-      "community_name": "Community 8"
+      "community_name": "Community 8",
+      "id": "hindal_claude_codeblock_1"
     },
     {
       "label": "code:block2 (MORNING BRIEFING (run as Ruflo swarm):)",
@@ -926,8 +233,8 @@
       "source_location": "L120",
       "community": 10,
       "norm_label": "code:block2 (morning briefing (run as ruflo swarm):)",
-      "id": "hindal_claude_codeblock_2",
-      "community_name": "Community 10"
+      "community_name": "Community 10",
+      "id": "hindal_claude_codeblock_2"
     },
     {
       "label": "code:block3 (1. Caveman FULL mode \u2192 ON)",
@@ -936,8 +243,8 @@
       "source_location": "L178",
       "community": 3,
       "norm_label": "code:block3 (1. caveman full mode \u2192 on)",
-      "id": "hindal_claude_codeblock_3",
-      "community_name": "Community 3"
+      "community_name": "Community 3",
+      "id": "hindal_claude_codeblock_3"
     },
     {
       "label": "code:block4 (\u25a1 1. Activate caveman mode (full))",
@@ -946,8 +253,8 @@
       "source_location": "L212",
       "community": 11,
       "norm_label": "code:block4 (\u25a1 1. activate caveman mode (full))",
-      "id": "hindal_claude_codeblock_4",
-      "community_name": "Community 11"
+      "community_name": "Community 11",
+      "id": "hindal_claude_codeblock_4"
     },
     {
       "label": "code:block5 (hindalexports-cell/)",
@@ -956,8 +263,8 @@
       "source_location": "L224",
       "community": 12,
       "norm_label": "code:block5 (hindalexports-cell/)",
-      "id": "hindal_claude_codeblock_5",
-      "community_name": "Community 12"
+      "community_name": "Community 12",
+      "id": "hindal_claude_codeblock_5"
     },
     {
       "label": "README.md",
@@ -966,8 +273,8 @@
       "source_location": "L1",
       "community": 32,
       "norm_label": "readme.md",
-      "id": "readme_md",
-      "community_name": "Community 32"
+      "community_name": "Community 32",
+      "id": "readme_md"
     },
     {
       "label": "code:block1 (Good morning. Run Hindal morning briefing as Ruflo swarm:)",
@@ -976,8 +283,8 @@
       "source_location": "L10",
       "community": 29,
       "norm_label": "code:block1 (good morning. run hindal morning briefing as ruflo swarm:)",
-      "id": "hindal_morning_briefing_codeblock_1",
-      "community_name": "Community 29"
+      "community_name": "Community 29",
+      "id": "hindal_morning_briefing_codeblock_1"
     },
     {
       "label": "code:block2 (Weekly Hindal review:)",
@@ -986,8 +293,8 @@
       "source_location": "L43",
       "community": 30,
       "norm_label": "code:block2 (weekly hindal review:)",
-      "id": "hindal_morning_briefing_codeblock_2",
-      "community_name": "Community 30"
+      "community_name": "Community 30",
+      "id": "hindal_morning_briefing_codeblock_2"
     },
     {
       "label": "code:block3 (Monthly Hindal strategy review:)",
@@ -996,8 +303,8 @@
       "source_location": "L59",
       "community": 31,
       "norm_label": "code:block3 (monthly hindal strategy review:)",
-      "id": "hindal_morning_briefing_codeblock_3",
-      "community_name": "Community 31"
+      "community_name": "Community 31",
+      "id": "hindal_morning_briefing_codeblock_3"
     },
     {
       "label": "README.md",
@@ -1006,8 +313,8 @@
       "source_location": "L1",
       "community": 2,
       "norm_label": "readme.md",
-      "id": "plugins_frontend_design_readme_md",
-      "community_name": "Community 2"
+      "community_name": "Community 2",
+      "id": "plugins_frontend_design_readme_md"
     },
     {
       "label": "README.md",
@@ -1016,8 +323,8 @@
       "source_location": "L1",
       "community": 7,
       "norm_label": "readme.md",
-      "id": "backups_readme_md",
-      "community_name": "Community 7"
+      "community_name": "Community 7",
+      "id": "backups_readme_md"
     }
   ],
   "links": [
@@ -1028,9 +335,9 @@
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "autostart",
-      "target": "autostart_sh__entry"
+      "target": "autostart_sh__entry",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1039,9 +346,9 @@
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "backup",
-      "target": "backup_sh__entry"
+      "target": "backup_sh__entry",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1050,636 +357,9 @@
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "restore",
-      "target": "restore_sh__entry"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L3",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude",
-      "target": "claude_all_tools_below_are_always_on"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude",
-      "target": "claude_hindal_agri_exports_master_ai_configuration"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude",
-      "target": "claude_this_file_loads_automatically_at_the_start_of_every_claude_session"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L193",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_all_tools_below_are_always_on",
-      "target": "claude_ai_tool_routing_which_tool_for_which_task"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_all_tools_below_are_always_on",
-      "target": "claude_always_active_load_these_first"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L47",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_all_tools_below_are_always_on",
-      "target": "claude_business_context_auto_load_every_session"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L106",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_all_tools_below_are_always_on",
-      "target": "claude_compliance_documents_per_shipment"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L81",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_all_tools_below_are_always_on",
-      "target": "claude_costing_formula_always_use_this"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L118",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_all_tools_below_are_always_on",
-      "target": "claude_daily_workflow_auto_run_each_morning"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L239",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_all_tools_below_are_always_on",
-      "target": "claude_graphify"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L133",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_all_tools_below_are_always_on",
-      "target": "claude_iran_risk_alerts_always_flag_these"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L153",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_all_tools_below_are_always_on",
-      "target": "claude_language_rules"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L222",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_all_tools_below_are_always_on",
-      "target": "claude_repo_structure"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L210",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_all_tools_below_are_always_on",
-      "target": "claude_session_start_checklist_auto_run_every_time"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L142",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_all_tools_below_are_always_on",
-      "target": "claude_target_market_rules"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L163",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_all_tools_below_are_always_on",
-      "target": "claude_tool_status_dashboard_always_on_stack"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_always_active_load_these_first",
-      "target": "claude_1_caveman_mode_always_on"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L16",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_always_active_load_these_first",
-      "target": "claude_2_claude_mem_always_on"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L25",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_always_active_load_these_first",
-      "target": "claude_3_superpowers_always_on"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L32",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_always_active_load_these_first",
-      "target": "claude_4_ruflo_always_on"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L38",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_always_active_load_these_first",
-      "target": "claude_5_llm_council_always_on_for_big_decisions"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L74",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_business_context_auto_load_every_session",
-      "target": "claude_incoterms"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L65",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_business_context_auto_load_every_session",
-      "target": "claude_key_ports"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L61",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_business_context_auto_load_every_session",
-      "target": "claude_markets"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L69",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_business_context_auto_load_every_session",
-      "target": "claude_payment_terms"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L55",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_business_context_auto_load_every_session",
-      "target": "claude_products"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L177",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_tool_status_dashboard_always_on_stack",
-      "target": "claude_session_start_protocol_auto_run_every_time"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "INSTALL.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "install",
-      "target": "install_hindal_local_setup_guide"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "INSTALL.md",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "install",
-      "target": "install_run_this_once_on_any_new_machine_to_wire_everything_up"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "INSTALL.md",
-      "source_location": "L48",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "install_run_this_once_on_any_new_machine_to_wire_everything_up",
-      "target": "install_auto_backup_schedule"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "INSTALL.md",
-      "source_location": "L56",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "install_run_this_once_on_any_new_machine_to_wire_everything_up",
-      "target": "install_new_machine_just_run"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "INSTALL.md",
-      "source_location": "L6",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "install_run_this_once_on_any_new_machine_to_wire_everything_up",
-      "target": "install_step_1_clone_your_repo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "INSTALL.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "install_run_this_once_on_any_new_machine_to_wire_everything_up",
-      "target": "install_step_2_make_scripts_executable"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "INSTALL.md",
-      "source_location": "L17",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "install_run_this_once_on_any_new_machine_to_wire_everything_up",
-      "target": "install_step_3_restore_all_tool_data_from_github"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "INSTALL.md",
-      "source_location": "L23",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "install_run_this_once_on_any_new_machine_to_wire_everything_up",
-      "target": "install_step_4_install_graphify"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "INSTALL.md",
-      "source_location": "L30",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "install_run_this_once_on_any_new_machine_to_wire_everything_up",
-      "target": "install_step_5_set_github_token"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "INSTALL.md",
-      "source_location": "L36",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "install_run_this_once_on_any_new_machine_to_wire_everything_up",
-      "target": "install_step_6_set_up_auto_cron_every_6_hours"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "INSTALL.md",
-      "source_location": "L43",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "install_run_this_once_on_any_new_machine_to_wire_everything_up",
-      "target": "install_step_7_run_first_backup"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "MORNING_BRIEFING.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "morning_briefing",
-      "target": "morning_briefing_hindal_morning_briefing_daily_runbook"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "MORNING_BRIEFING.md",
-      "source_location": "L57",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "morning_briefing_hindal_morning_briefing_daily_runbook",
-      "target": "morning_briefing_monthly_strategy_prompt_1st_of_every_month"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "MORNING_BRIEFING.md",
-      "source_location": "L8",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "morning_briefing_hindal_morning_briefing_daily_runbook",
-      "target": "morning_briefing_morning_briefing_prompt_copy_paste_daily"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "MORNING_BRIEFING.md",
-      "source_location": "L41",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "morning_briefing_hindal_morning_briefing_daily_runbook",
-      "target": "morning_briefing_weekly_review_prompt_every_friday"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "readme_hindal_agri_exports_ai_command_center"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L8",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "readme_hindal_agri_exports_ai_command_center",
-      "target": "readme_always_on_ai_stack"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "readme_hindal_agri_exports_ai_command_center",
-      "target": "readme_files_in_this_repo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L31",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "readme_hindal_agri_exports_ai_command_center",
-      "target": "readme_quick_start"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L40",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "readme_hindal_agri_exports_ai_command_center",
-      "target": "readme_your_ai_tool_repos"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "backups/README.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backups_readme",
-      "target": "backups_readme_hindal_tool_data_backups"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "backups/README.md",
-      "source_location": "L25",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backups_readme_hindal_tool_data_backups",
-      "target": "backups_readme_auto_backup_cron_every_6_hours"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "backups/README.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backups_readme_hindal_tool_data_backups",
-      "target": "backups_readme_manual_backup"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "backups/README.md",
-      "source_location": "L13",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backups_readme_hindal_tool_data_backups",
-      "target": "backups_readme_restore_on_new_machine"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "plugins/frontend-design/README.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "plugins_frontend_design_readme",
-      "target": "plugins_frontend_design_readme_frontend_design_plugin"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "plugins/frontend-design/README.md",
-      "source_location": "L28",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "plugins_frontend_design_readme_frontend_design_plugin",
-      "target": "plugins_frontend_design_readme_authors"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "plugins/frontend-design/README.md",
-      "source_location": "L35",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "plugins_frontend_design_readme_frontend_design_plugin",
-      "target": "plugins_frontend_design_readme_hindal_agri_exports_use_cases"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "plugins/frontend-design/README.md",
-      "source_location": "L24",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "plugins_frontend_design_readme_frontend_design_plugin",
-      "target": "plugins_frontend_design_readme_learn_more"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "plugins/frontend-design/README.md",
-      "source_location": "L14",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "plugins_frontend_design_readme_frontend_design_plugin",
-      "target": "plugins_frontend_design_readme_usage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "plugins/frontend-design/README.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "plugins_frontend_design_readme_frontend_design_plugin",
-      "target": "plugins_frontend_design_readme_what_it_does"
+      "target": "restore_sh__entry",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1688,9 +368,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "plugins_frontend_design_skills_frontend_design_skill",
-      "target": "plugins_frontend_design_skills_frontend_design_skill_design_thinking"
+      "target": "plugins_frontend_design_skills_frontend_design_skill_design_thinking",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1699,11 +379,11 @@
       "source_location": "L27",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "plugins_frontend_design_skills_frontend_design_skill",
-      "target": "plugins_frontend_design_skills_frontend_design_skill_frontend_aesthetics_guidelines"
+      "target": "plugins_frontend_design_skills_frontend_design_skill_frontend_aesthetics_guidelines",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "deb76f6ef458b49f1d983c285639e30d10fd4f2d"
+  "built_at_commit": "b89a2ed2a98031c3d7b3d582c91b0d1914d064ff"
 }
