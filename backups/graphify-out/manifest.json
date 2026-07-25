@@ -1,72 +1,72 @@
 {
   "backup.sh": {
-    "mtime": 1784944551.700568,
+    "mtime": 1784965956.2837799,
     "ast_hash": "41d8e71fb890b0a4b4a6a9f2513f16a7",
     "semantic_hash": ""
   },
   "restore.sh": {
-    "mtime": 1784944551.7173738,
+    "mtime": 1784965956.3005235,
     "ast_hash": "8b3874725e7ee38fdae705f41a5a222a",
     "semantic_hash": ""
   },
   "autostart.sh": {
-    "mtime": 1784944551.700568,
+    "mtime": 1784965956.2837799,
     "ast_hash": "d08ccadd5f63bce81effc73cea896987",
     "semantic_hash": ""
   },
   ".claude/settings.json": {
-    "mtime": 1784944551.6995497,
+    "mtime": 1784965956.2824886,
     "ast_hash": "9276b535256dc065bd7b8b84e15abd95",
     "semantic_hash": ""
   },
   "plugins/frontend-design/.claude-plugin/plugin.json": {
-    "mtime": 1784944551.7171717,
+    "mtime": 1784965956.3003595,
     "ast_hash": "62123db9f1cd0f22e306959416641df6",
     "semantic_hash": ""
   },
   "INSTALL.md": {
-    "mtime": 1784944551.700568,
+    "mtime": 1784965956.2837799,
     "ast_hash": "e01d5176b5a7004bfa62fa69c53f09a8",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1784944551.700568,
+    "mtime": 1784965956.2837799,
     "ast_hash": "39fec417aaac917288df949c74d84836",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784944551.700568,
+    "mtime": 1784965956.2837799,
     "ast_hash": "ca38a09b2f89a67238bf99c68cd7b63f",
     "semantic_hash": ""
   },
   "MORNING_BRIEFING.md": {
-    "mtime": 1784944551.700568,
+    "mtime": 1784965956.2837799,
     "ast_hash": "728a702dee4838efe628ecc5d552848a",
     "semantic_hash": ""
   },
   ".github/workflows/auto-backup.yml": {
-    "mtime": 1784944551.700568,
+    "mtime": 1784965956.2837799,
     "ast_hash": "ca12d33cc0bdbf56cf006fcb1fffb42c",
     "semantic_hash": ""
   },
   "plugins/frontend-design/README.md": {
-    "mtime": 1784944551.7171717,
+    "mtime": 1784965956.3003595,
     "ast_hash": "939a61f38276e277169e62203d532f99",
     "semantic_hash": ""
   },
   "plugins/frontend-design/skills/frontend-design/SKILL.md": {
-    "mtime": 1784944551.7173738,
+    "mtime": 1784965956.3005235,
     "ast_hash": "3c0ba7ae2705dd816282249422c768b7",
     "semantic_hash": ""
   },
   "backups/README.md": {
-    "mtime": 1784944551.7010324,
+    "mtime": 1784965956.2842815,
     "ast_hash": "f4d8f8fd13eb1e59e9508da648a4e630",
     "semantic_hash": ""
   },
   "backups/LAST_BACKUP.txt": {
-    "mtime": 1784944551.700568,
-    "ast_hash": "d23c057cdd2a69d7845e9f6c70f0d2a7",
+    "mtime": 1784965956.2837799,
+    "ast_hash": "cbd4441d917cfc9dfa002592134777da",
     "semantic_hash": ""
   }
 }
