@@ -1,4 +1,4 @@
-# Graph Report - Hindal  (2026-08-01)
+# Graph Report - Hindal  (2026-08-18)
 
 ## Corpus Check
 - 12 files · ~4,177 words
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `de2d01e4`
+- Built from commit: `5af6c0fa`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
