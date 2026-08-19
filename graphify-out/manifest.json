@@ -1,19 +1,19 @@
 {
   "backup.sh": {
-    "mtime": 1787142512.2543247,
-    "seen": 1787142521.0981967,
+    "mtime": 1787163684.1326761,
+    "seen": 1787163691.248788,
     "ast_hash": "41d8e71fb890b0a4b4a6a9f2513f16a7",
     "semantic_hash": ""
   },
   "restore.sh": {
-    "mtime": 1787142512.2785256,
-    "seen": 1787142521.098198,
+    "mtime": 1787163684.157141,
+    "seen": 1787163691.2487898,
     "ast_hash": "8b3874725e7ee38fdae705f41a5a222a",
     "semantic_hash": ""
   },
   "autostart.sh": {
-    "mtime": 1787142512.2543247,
-    "seen": 1787142521.0981934,
+    "mtime": 1787163684.1326761,
+    "seen": 1787163691.2487855,
     "ast_hash": "d08ccadd5f63bce81effc73cea896987",
     "semantic_hash": ""
   },
@@ -28,57 +28,57 @@
     "semantic_hash": ""
   },
   "INSTALL.md": {
-    "mtime": 1787142512.2543247,
-    "seen": 1787142521.0982013,
+    "mtime": 1787163684.1326761,
+    "seen": 1787163691.2487955,
     "ast_hash": "e01d5176b5a7004bfa62fa69c53f09a8",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1787142512.2543247,
-    "seen": 1787142521.0982003,
+    "mtime": 1787163684.1326761,
+    "seen": 1787163691.2487924,
     "ast_hash": "39fec417aaac917288df949c74d84836",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1787142512.2543247,
-    "seen": 1787142521.0982034,
+    "mtime": 1787163684.1326761,
+    "seen": 1787163691.2487977,
     "ast_hash": "ca38a09b2f89a67238bf99c68cd7b63f",
     "semantic_hash": ""
   },
   "MORNING_BRIEFING.md": {
-    "mtime": 1787142512.2543247,
-    "seen": 1787142521.0982025,
+    "mtime": 1787163684.1326761,
+    "seen": 1787163691.2487967,
     "ast_hash": "728a702dee4838efe628ecc5d552848a",
     "semantic_hash": ""
   },
   ".github/workflows/auto-backup.yml": {
-    "mtime": 1787142512.2543247,
-    "seen": 1787142521.0981991,
+    "mtime": 1787163684.1326761,
+    "seen": 1787163691.248791,
     "ast_hash": "ca12d33cc0bdbf56cf006fcb1fffb42c",
     "semantic_hash": ""
   },
   "plugins/frontend-design/README.md": {
-    "mtime": 1787142512.2783618,
-    "seen": 1787142521.0982065,
+    "mtime": 1787163684.156974,
+    "seen": 1787163691.248804,
     "ast_hash": "939a61f38276e277169e62203d532f99",
     "semantic_hash": ""
   },
   "plugins/frontend-design/skills/frontend-design/SKILL.md": {
-    "mtime": 1787142512.2785256,
-    "seen": 1787142521.0982075,
+    "mtime": 1787163684.157141,
+    "seen": 1787163691.2488065,
     "ast_hash": "3c0ba7ae2705dd816282249422c768b7",
     "semantic_hash": ""
   },
   "backups/README.md": {
-    "mtime": 1787142512.254786,
-    "seen": 1787142521.0982053,
+    "mtime": 1787163684.1331437,
+    "seen": 1787163691.2488022,
     "ast_hash": "f4d8f8fd13eb1e59e9508da648a4e630",
     "semantic_hash": ""
   },
   "backups/LAST_BACKUP.txt": {
-    "mtime": 1787142512.2543247,
-    "seen": 1787142521.0982044,
-    "ast_hash": "ed989d36f57947912a059b153a15baf7",
+    "mtime": 1787163684.1326761,
+    "seen": 1787163691.2488003,
+    "ast_hash": "3720877dcb8227e1fc8b305454a68b4b",
     "semantic_hash": ""
   }
 }
