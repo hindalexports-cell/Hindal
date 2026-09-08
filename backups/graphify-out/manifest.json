@@ -1,86 +1,86 @@
 {
   "backup.sh": {
-    "mtime": 1788862844.1832805,
-    "seen": 1788862853.1190388,
+    "mtime": 1788882247.9179118,
+    "seen": 1788882255.1096694,
     "ast_hash": "41d8e71fb890b0a4b4a6a9f2513f16a7",
     "semantic_hash": ""
   },
   "restore.sh": {
-    "mtime": 1788862844.212201,
-    "seen": 1788862853.1190412,
+    "mtime": 1788882247.945887,
+    "seen": 1788882255.1096723,
     "ast_hash": "8b3874725e7ee38fdae705f41a5a222a",
     "semantic_hash": ""
   },
   "autostart.sh": {
-    "mtime": 1788862844.1832805,
-    "seen": 1788862853.1190372,
+    "mtime": 1788882247.9179118,
+    "seen": 1788882255.1096678,
     "ast_hash": "d08ccadd5f63bce81effc73cea896987",
     "semantic_hash": ""
   },
   ".claude/settings.json": {
-    "mtime": 1788862844.1822805,
-    "seen": 1788862853.1190343,
+    "mtime": 1788882247.9165978,
+    "seen": 1788882255.109665,
     "ast_hash": "9276b535256dc065bd7b8b84e15abd95",
     "semantic_hash": ""
   },
   "plugins/frontend-design/.claude-plugin/plugin.json": {
-    "mtime": 1788862844.2120047,
-    "seen": 1788862853.11904,
+    "mtime": 1788882247.9457245,
+    "seen": 1788882255.1096706,
     "ast_hash": "62123db9f1cd0f22e306959416641df6",
     "semantic_hash": ""
   },
   "INSTALL.md": {
-    "mtime": 1788862844.1832597,
-    "seen": 1788862853.1190443,
+    "mtime": 1788882247.9179118,
+    "seen": 1788882255.109676,
     "ast_hash": "e01d5176b5a7004bfa62fa69c53f09a8",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1788862844.1832597,
-    "seen": 1788862853.1190434,
+    "mtime": 1788882247.9179118,
+    "seen": 1788882255.1096745,
     "ast_hash": "39fec417aaac917288df949c74d84836",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1788862844.1832597,
-    "seen": 1788862853.1190464,
+    "mtime": 1788882247.9179118,
+    "seen": 1788882255.1096778,
     "ast_hash": "ca38a09b2f89a67238bf99c68cd7b63f",
     "semantic_hash": ""
   },
   "MORNING_BRIEFING.md": {
-    "mtime": 1788862844.1832597,
-    "seen": 1788862853.1190453,
+    "mtime": 1788882247.9179118,
+    "seen": 1788882255.1096766,
     "ast_hash": "728a702dee4838efe628ecc5d552848a",
     "semantic_hash": ""
   },
   ".github/workflows/auto-backup.yml": {
-    "mtime": 1788862844.1832597,
-    "seen": 1788862853.1190424,
+    "mtime": 1788882247.9179118,
+    "seen": 1788882255.1096733,
     "ast_hash": "ca12d33cc0bdbf56cf006fcb1fffb42c",
     "semantic_hash": ""
   },
   "plugins/frontend-design/README.md": {
-    "mtime": 1788862844.2120047,
-    "seen": 1788862853.11905,
+    "mtime": 1788882247.9457245,
+    "seen": 1788882255.1096814,
     "ast_hash": "939a61f38276e277169e62203d532f99",
     "semantic_hash": ""
   },
   "plugins/frontend-design/skills/frontend-design/SKILL.md": {
-    "mtime": 1788862844.212201,
-    "seen": 1788862853.1190512,
+    "mtime": 1788882247.945887,
+    "seen": 1788882255.1096823,
     "ast_hash": "3c0ba7ae2705dd816282249422c768b7",
     "semantic_hash": ""
   },
   "backups/README.md": {
-    "mtime": 1788862844.1837769,
-    "seen": 1788862853.1190486,
+    "mtime": 1788882247.9183738,
+    "seen": 1788882255.1096802,
     "ast_hash": "f4d8f8fd13eb1e59e9508da648a4e630",
     "semantic_hash": ""
   },
   "backups/LAST_BACKUP.txt": {
-    "mtime": 1788862844.1832805,
-    "seen": 1788862853.1190474,
-    "ast_hash": "955a048eb7688ddfbc277e706e720ec0",
+    "mtime": 1788882247.9179118,
+    "seen": 1788882255.1096792,
+    "ast_hash": "205e2cc0e19c645a85e62cdb8db4a119",
     "semantic_hash": ""
   }
 }
