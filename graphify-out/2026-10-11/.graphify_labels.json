@@ -1,0 +1,15 @@
+{
+  "0": "All tools below are ALWAYS ON.",
+  "1": "Run this ONCE on any new machine to wire everything up",
+  "2": "Frontend Design Plugin",
+  "3": "🔴 ALWAYS ACTIVE: Load These First",
+  "4": "🏢 BUSINESS CONTEXT — Auto-Load Every Session",
+  "5": "SKILL.md",
+  "6": "🥭 Hindal Agri Exports — AI Command Center",
+  "7": "🗄️ Hindal Tool Data Backups",
+  "8": "🌅 Hindal Morning Briefing — Daily Runbook",
+  "9": "CLAUDE.md",
+  "19": "autostart.sh",
+  "20": "backup.sh",
+  "21": "restore.sh"
+}

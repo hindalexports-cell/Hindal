@@ -1,8 +1,9 @@
-# Graph Report - Hindal  (2026-08-18)
+# Graph Report - Hindal  (2026-10-11)
 
 ## Corpus Check
 - 12 files · ~4,177 words
 - Verdict: corpus is large enough that graph structure adds value.
+- Unclassified: 2 file(s) not represented in the graph (top: (none) 1, .plist 1)
 
 ## Summary
 - 72 nodes · 62 edges · 13 communities (8 shown, 5 thin omitted)
@@ -10,7 +11,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5af6c0fa`
+- Built from commit: `e9dc0b75`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -82,8 +83,6 @@ Cohesion: 0.40
 Nodes (4): 🌅 Hindal Morning Briefing — Daily Runbook, 🎯 Monthly Strategy Prompt (1st of every month), 📋 Morning Briefing Prompt (Copy-Paste Daily), 📊 Weekly Review Prompt (Every Friday)
 
 ## Knowledge Gaps
-- **53 isolated node(s):** `autostart.sh script`, `backup.sh script`, `restore.sh script`, `🥭 Hindal Agri Exports — Master AI Configuration`, `This file loads automatically at the start of EVERY Claude session.` (+48 more)
-  These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
@@ -95,5 +94,3 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.048) - this node is a cross-community bridge._
 - **Why does `🏢 BUSINESS CONTEXT — Auto-Load Every Session` connect `🏢 BUSINESS CONTEXT — Auto-Load Every Session` to `All tools below are ALWAYS ON.`?**
   _High betweenness centrality (0.048) - this node is a cross-community bridge._
-- **What connects `autostart.sh script`, `backup.sh script`, `restore.sh script` to the rest of the system?**
-  _53 weakly-connected nodes found - possible documentation gaps or missing edges._
