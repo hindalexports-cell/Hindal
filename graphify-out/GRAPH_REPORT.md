@@ -1,17 +1,17 @@
-# Graph Report - Hindal  (2026-10-11)
+# Graph Report - Hindal  (2026-10-23)
 
 ## Corpus Check
-- 12 files · ~4,177 words
+- 13 files · ~4,177 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 2 file(s) not represented in the graph (top: (none) 1, .plist 1)
 
 ## Summary
-- 72 nodes · 62 edges · 13 communities (8 shown, 5 thin omitted)
+- 93 nodes · 82 edges · 14 communities (10 shown, 4 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e9dc0b75`
+- Built from commit: `253bd106`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -25,7 +25,8 @@
 - 🥭 Hindal Agri Exports — AI Command Center
 - 🗄️ Hindal Tool Data Backups
 - 🌅 Hindal Morning Briefing — Daily Runbook
-- CLAUDE.md
+- backup
+- steps
 - autostart.sh
 - backup.sh
 - restore.sh
@@ -36,11 +37,11 @@
 3. `🔴 ALWAYS ACTIVE: Load These First` - 6 edges
 4. `🏢 BUSINESS CONTEXT — Auto-Load Every Session` - 6 edges
 5. `Frontend Design Plugin` - 6 edges
-6. `🥭 Hindal Agri Exports — AI Command Center` - 5 edges
-7. `🌅 Hindal Morning Briefing — Daily Runbook` - 4 edges
-8. `🗄️ Hindal Tool Data Backups` - 4 edges
-9. `🛠️ TOOL STATUS DASHBOARD — Always On Stack` - 2 edges
-10. `autostart.sh script` - 1 edges
+6. `steps` - 5 edges
+7. `🥭 Hindal Agri Exports — AI Command Center` - 5 edges
+8. `backup` - 4 edges
+9. `with` - 4 edges
+10. `🌅 Hindal Morning Briefing — Daily Runbook` - 4 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -48,11 +49,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (13 total, 5 thin omitted)
+## Communities (14 total, 4 thin omitted)
 
 ### Community 0 - "All tools below are ALWAYS ON."
-Cohesion: 0.15
-Nodes (13): 🤖 AI TOOL ROUTING — Which Tool for Which Task, All tools below are ALWAYS ON., 📋 COMPLIANCE DOCUMENTS — Per Shipment, 💰 COSTING FORMULA — Always Use This, 📅 DAILY WORKFLOW — Auto-Run Each Morning, graphify, 🚨 IRAN RISK ALERTS — Always Flag These, 💬 LANGUAGE RULES (+5 more)
+Cohesion: 0.12
+Nodes (15): 🤖 AI TOOL ROUTING — Which Tool for Which Task, All tools below are ALWAYS ON., 📋 COMPLIANCE DOCUMENTS — Per Shipment, 💰 COSTING FORMULA — Always Use This, 📅 DAILY WORKFLOW — Auto-Run Each Morning, graphify, 🥭 Hindal Agri Exports — Master AI Configuration, 🚨 IRAN RISK ALERTS — Always Flag These (+7 more)
 
 ### Community 1 - "Run this ONCE on any new machine to wire everything up"
 Cohesion: 0.17
@@ -82,15 +83,25 @@ Nodes (4): Auto backup (cron — every 6 hours), 🗄️ Hindal Tool Data Backup
 Cohesion: 0.40
 Nodes (4): 🌅 Hindal Morning Briefing — Daily Runbook, 🎯 Monthly Strategy Prompt (1st of every month), 📋 Morning Briefing Prompt (Copy-Paste Daily), 📊 Weekly Review Prompt (Every Friday)
 
+### Community 9 - "backup"
+Cohesion: 0.15
+Nodes (12): permissions, runs-on, jobs, backup, name, contents, branches, cron (+4 more)
+
+### Community 10 - "steps"
+Cohesion: 0.25
+Nodes (8): steps, name, run, uses, with, fetch-depth, python-version, token
+
 ## Knowledge Gaps
-- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `All tools below are ALWAYS ON.` connect `All tools below are ALWAYS ON.` to `CLAUDE.md`, `🔴 ALWAYS ACTIVE: Load These First`, `🏢 BUSINESS CONTEXT — Auto-Load Every Session`?**
-  _High betweenness centrality (0.128) - this node is a cross-community bridge._
+- **Why does `All tools below are ALWAYS ON.` connect `All tools below are ALWAYS ON.` to `🔴 ALWAYS ACTIVE: Load These First`, `🏢 BUSINESS CONTEXT — Auto-Load Every Session`?**
+  _High betweenness centrality (0.076) - this node is a cross-community bridge._
+- **Should `All tools below are ALWAYS ON.` be split into smaller, more focused modules?**
+  _Cohesion score 0.125 - nodes in this community are weakly interconnected._
+- **Why does `backup` connect `backup` to `steps`?**
+  _High betweenness centrality (0.030) - this node is a cross-community bridge._
 - **Why does `🔴 ALWAYS ACTIVE: Load These First` connect `🔴 ALWAYS ACTIVE: Load These First` to `All tools below are ALWAYS ON.`?**
-  _High betweenness centrality (0.048) - this node is a cross-community bridge._
-- **Why does `🏢 BUSINESS CONTEXT — Auto-Load Every Session` connect `🏢 BUSINESS CONTEXT — Auto-Load Every Session` to `All tools below are ALWAYS ON.`?**
-  _High betweenness centrality (0.048) - this node is a cross-community bridge._
+  _High betweenness centrality (0.029) - this node is a cross-community bridge._
