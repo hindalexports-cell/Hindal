@@ -1,4 +1,4 @@
-# Graph Report - Hindal  (2026-10-23)
+# Graph Report - Hindal  (2026-10-27)
 
 ## Corpus Check
 - 13 files · ~4,177 words
@@ -11,7 +11,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `253bd106`
+- Built from commit: `d20178cc`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -25,7 +25,7 @@
 - 🥭 Hindal Agri Exports — AI Command Center
 - 🗄️ Hindal Tool Data Backups
 - 🌅 Hindal Morning Briefing — Daily Runbook
-- backup
+- on
 - steps
 - autostart.sh
 - backup.sh
@@ -39,9 +39,9 @@
 5. `Frontend Design Plugin` - 6 edges
 6. `steps` - 5 edges
 7. `🥭 Hindal Agri Exports — AI Command Center` - 5 edges
-8. `backup` - 4 edges
-9. `with` - 4 edges
-10. `🌅 Hindal Morning Briefing — Daily Runbook` - 4 edges
+8. `on` - 4 edges
+9. `backup` - 4 edges
+10. `with` - 4 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -83,13 +83,13 @@ Nodes (4): Auto backup (cron — every 6 hours), 🗄️ Hindal Tool Data Backup
 Cohesion: 0.40
 Nodes (4): 🌅 Hindal Morning Briefing — Daily Runbook, 🎯 Monthly Strategy Prompt (1st of every month), 📋 Morning Briefing Prompt (Copy-Paste Daily), 📊 Weekly Review Prompt (Every Friday)
 
-### Community 9 - "backup"
-Cohesion: 0.15
-Nodes (12): permissions, runs-on, jobs, backup, name, contents, branches, cron (+4 more)
+### Community 9 - "on"
+Cohesion: 0.22
+Nodes (8): jobs, name, on, push, schedule, workflow_dispatch, branches, cron
 
 ### Community 10 - "steps"
-Cohesion: 0.25
-Nodes (8): steps, name, run, uses, with, fetch-depth, python-version, token
+Cohesion: 0.17
+Nodes (12): permissions, runs-on, steps, backup, contents, name, run, uses (+4 more)
 
 ## Knowledge Gaps
 - **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
@@ -101,7 +101,7 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.076) - this node is a cross-community bridge._
 - **Should `All tools below are ALWAYS ON.` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
-- **Why does `backup` connect `backup` to `steps`?**
+- **Why does `backup` connect `steps` to `on`?**
   _High betweenness centrality (0.030) - this node is a cross-community bridge._
 - **Why does `🔴 ALWAYS ACTIVE: Load These First` connect `🔴 ALWAYS ACTIVE: Load These First` to `All tools below are ALWAYS ON.`?**
   _High betweenness centrality (0.029) - this node is a cross-community bridge._
